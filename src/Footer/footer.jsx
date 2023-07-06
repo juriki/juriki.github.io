@@ -13,7 +13,6 @@ function Footer() {
             <p>
                 Sähköposti vlad_lahna@gmail.cooom
             </p>
-          
         </div>
     );
 }

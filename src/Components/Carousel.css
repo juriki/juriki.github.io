@@ -1,20 +1,12 @@
-.carousel {
-    grid-area: m;
-}
+
 
 
 .carousel {
-            padding-left: 20%;
-            padding-right: 20%;
-            margin: 5px;
+    padding-bottom: 0px;
 }
 
 .tyoKuva
 {
-    padding-left: 20%;
-    padding-right: 20%;
-    height: 400px;
-    width: auto;
-    max-height: 500px;
+    width: 100%;
 
 }

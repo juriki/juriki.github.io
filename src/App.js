@@ -5,11 +5,15 @@ import Navibar from './Navbar/Navbar';
 
 function App() {
   return (
+    <>
     <div className='Containers'>
       <Navibar />
-  
-      <Footer />
+
     </div>
+    <div>
+        <Footer />
+    </div>
+    </>
 
 
   );
