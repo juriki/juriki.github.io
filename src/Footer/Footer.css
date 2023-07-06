@@ -1,0 +1,10 @@
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    grid-area: f;
+    background-color: rgba(55, 54, 51, 0.5);
+    padding-left: 10px;
+    margin-bottom: 0px;
+    color: azure;
+}

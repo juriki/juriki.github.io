@@ -1,0 +1,14 @@
+.myHeader {
+    grid-area: h;
+    background-color: rgba(147, 190, 216, 0.758);
+    height: 100px;
+}
+
+.logo {
+    height: 80px;
+    text-align: left;
+}
+
+.mytext {
+    text-align: center;
+}
