@@ -8,14 +8,12 @@ function App() {
     <>
     <div className='Containers'>
       <Navibar />
-
     </div>
+
     <div>
         <Footer />
     </div>
     </>
-
-
   );
 }
 

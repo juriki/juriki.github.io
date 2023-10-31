@@ -5,17 +5,18 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Aboute from '../AboutPage/Aboute';
 import Contacts from '../ContactsPage/Contacts';
 import Order from '../OrderPage/Order';
+import HomePage from '../HomePage/HomePage';
 
 
 function Navibar() {
     return (
         <>
-            <Navbar className='naviBar' collapseOnSelect expand="md" bg="dark" variant="dark" >
+            <Navbar className='naviBar' collapseOnSelect expand="md" variant="yllow" >
+                <Navbar.Brand href="/">
+                    <img className='Logo' src='RakennusjaValvonta-1.png' alt="My Awesome Image" />
+                </Navbar.Brand>
                 <Container>
-                    <Navbar.Brand href="/">
-                        <img className='logo' src='RakennusjaValvonta-1.png' alt="My Awesome Image" />
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
                             <Nav.Link href='/order'>Tila Arviointi</Nav.Link>
@@ -24,10 +25,12 @@ function Navibar() {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
+                
             </Navbar>
-
+            
         <Router>
                 <Routes>
+                    <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/order' element={<Order/>} />
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
@@ -37,3 +40,7 @@ function Navibar() {
     );
 }
 export default Navibar;
+
+
+
+

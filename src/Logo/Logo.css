@@ -1,0 +1,10 @@
+.Logo
+{
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0, 0.5);
+    
+    margin-top: 70px;
+    margin-left: 20px;
+    z-index: 3;
+    position: fixed;
+    width: 100px;
+}
