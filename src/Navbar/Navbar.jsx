@@ -12,19 +12,20 @@ function Navibar() {
     return (
         <>
             <Navbar className='naviBar' collapseOnSelect expand="md" variant="yllow" >
-                <Navbar.Brand href="/">
-                    <img className='Logo' src='RakennusjaValvonta-1.png' alt="My Awesome Image" />
-                </Navbar.Brand>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
                             <Nav.Link href='/order'>Tila Arviointi</Nav.Link>
-                            <Nav.Link href='/about'>Meistä</Nav.Link>
+                            <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+                    <Navbar.Brand href="/">
+                        <img className='Logo' src='VladLogo.png' alt="My Awesome Image" />
+                    </Navbar.Brand>
                 </Container>
+
                 
             </Navbar>
             

@@ -1,11 +1,22 @@
-
+import Form from '../Form/Form';
+import Palvelut from '../Palvelut/Palvelut';
+import './ContactPage.css'
 
 
 function Contacts() {
+    
     return (
-        <div>
-            Hello from Contacts      
-            <img src='RakennusjaValvonta.png' />      
+        <div className='PageTop'>   
+            <div>
+                <Form />  
+            </div>
+            <div>
+                <img src='VladLogo.png' /> 
+            </div>
+
+            <div>
+                <Palvelut/>
+            </div>
         </div>
 
 

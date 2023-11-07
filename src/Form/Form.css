@@ -1,34 +1,72 @@
-.LowForm
+
+.Yhteys
 {
-    background-color: aliceblue;
-    width: 50%;
-    float: right;
-    margin-right: 15px;
-    margin-top: -15px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 30px;
-    
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
-
 .UpForm {
-    margin: 2%;
+    float: left;
+    margin-left:  2%;
     background-color: rgb(242, 247, 244);
-    width: 96%;
-    height: 96%;
-    float: right;
-    border-width: 2px;
+    width: 30%;
+    height: 100%;
+    border-width: 1px;
     border-color: black;
-    border-radius: 30px;
+    border-radius: 2px;
     border-style: solid;
     text-align: center;
-    padding: 35px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input
 {
     border: none;
+    width: 100%;
     border-bottom: 1px solid rgb(12, 1, 1);
+}
+
+.NappiSoitta {
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+         .UpForm {
+            margin: 2%;
+            margin-bottom: -10px;
+            background-color: rgb(242, 247, 244);
+            width: 96%;
+            height: 100%;
+            float: right;
+            border-width: 1px;
+            border-color: black;
+            border-radius: 2px;
+            border-style: solid;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         }
+        input
+        {
+           width: 96%;
+        
+        }
+
+        .Yhteys {
+            margin-bottom: 2px;
+            font-size: x-large;
+            font-weight: bolder;
+                }
+        .NappiSoitta {
+            border-radius: 5px;
+            border-style: solid;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;
+        }
 }
