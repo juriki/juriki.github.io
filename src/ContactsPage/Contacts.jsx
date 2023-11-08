@@ -1,7 +1,7 @@
 import Form from '../Form/Form';
 import Palvelut from '../Palvelut/Palvelut';
 import './ContactPage.css'
-
+import React from 'react';
 
 function Contacts() {
     

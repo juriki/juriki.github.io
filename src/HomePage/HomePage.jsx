@@ -2,6 +2,7 @@ import Form from '../Form/Form';
 import './HomaPage.css'
 import Footer from '../Footer/footer';
 import Palvelut from '../Palvelut/Palvelut';
+import React from 'react';
 
 
 function HomePage() {

@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import './Navbar.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-
+import React from 'react';
 import Aboute from '../AboutPage/Aboute';
 import Contacts from '../ContactsPage/Contacts';
 import Order from '../OrderPage/Order';
