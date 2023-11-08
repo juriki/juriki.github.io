@@ -22,7 +22,7 @@ function Navibar() {
                         </Nav>
                     </Navbar.Collapse>
                     <Navbar.Brand href="/">
-                        <img className='Logo' src='VladLogo.png' alt="My Awesome Image" />
+                        <img className='Logo' src='VladLogo.png' alt="nice" />
                     </Navbar.Brand>
                 </Container>
 

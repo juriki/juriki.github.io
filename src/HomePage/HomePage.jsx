@@ -23,18 +23,21 @@ function HomePage() {
                 <h1 className='WelcomeText'>
                     TERVETULOA
                 </h1>
+                <a href="/about">
                 <button className='NappiSoitta'>Soita Heti</button>
+                </a>
+              
                 <div style={{ marginTop: 15,}}>
                     <a href='https://www.facebook.com' target='balnk'>
-                        <img src='facebook.png' width={50} />
+                        <img src='facebook.png' width={50} alt="nice"/>
                     </a >
                     <a style={{ marginLeft: 15}} href='https://instagram.com/vladlahna?igshid=MzRlODBiNWFlZA==' target='balnk'>
-                        <img src='Instagram.png' width={50} />
+                        <img src='Instagram.png' width={50} alt="nice" />
                     </a>           
                 </div>
             </div>
             <div className='RadiusImage'>
-                <img src="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" id="1726990206" class="" data-dm-image-path="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" onerror="handleImageLoadError(this)"></img>
+                <img src="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" id="1726990206" class="" data-dm-image-path="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" onerror="handleImageLoadError(this)" alt="nice"/>
             </div>
             <div className='ImageLogo'>
                 <div className='TextDiv'>
@@ -43,7 +46,7 @@ function HomePage() {
             </div>
             <div className='ImageLogoDiv'>
                 <div>
-                    <img className='ImageLogo1' src='VladLogo.png' width={1} />
+                    <img className='ImageLogo1' src='VladLogo.png' width={1} alt="nice" />
                 </div>
             </div>
             <div className='FormDiv'>
