@@ -6,16 +6,14 @@ function Form() {
 
         <>
               <div className='divv'>
-
               <p className='Yhteys'>
                         Pyydä Tarjous
                         </p>
-                        <h6 >
+                    <div className='UpForm'>
+                    <h6 >
                         Jos tarvitset tarjouksen, ota rohkeasti yhteyttä
                         </h6>
-                    <div className='UpForm'>
-                       
-                        <div className='test'>
+                        <div className='test1'>
                         <label >
                         <p className='LabelP'>Nimi*</p>
                             <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' />
@@ -37,12 +35,13 @@ function Form() {
                         <br />
                         <label>
                         <p className='LabelP'>Viesti*</p>
-                            <textarea ></textarea>
+                            <textarea className='texArea' ></textarea>
                         </label>
+                        <button className='NappiSoitta1'>Lähettä</button>
                         </div>
 
                     <br />
-                    <button className='NappiSoitta1'>Lähettä</button>
+
                     </div>
               </div>
 

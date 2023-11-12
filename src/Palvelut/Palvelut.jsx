@@ -8,7 +8,7 @@ function Palvelut() {
 
     return (
         <>
-            <div className='divv'>
+            <div className='divvq'>
                 <h3 className='h3Size'>
                     TARJOAMAT PALVELUT OVAT:
                 </h3>
