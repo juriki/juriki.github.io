@@ -5,35 +5,47 @@ function Form() {
     return (
 
         <>
-              
-                    <div className='UpForm'>
-                        <p className='Yhteys'>
-                        OTA YHTEYTTÄ
+              <div className='divv'>
+
+              <p className='Yhteys'>
+                        Pyydä Tarjous
                         </p>
-                    <h6 >
-                        Vastaamme kaikkiin tiedusteluihin ja tarjouspyyntöihin mahdollisimman nopeasti!
+                        <h6 >
+                        Jos tarvitset tarjouksen, ota rohkeasti yhteyttä
                         </h6>
+                    <div className='UpForm'>
+                       
                         <div className='test'>
                         <label >
-                            <input type="text" placeholder='Nimi' />
+                        <p className='LabelP'>Nimi*</p>
+                            <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' />
+                        </label>
+                        <label>
+                        <p className='LabelP'>Puhelinnumero*</p>
+                            <input className='inputNamePhone' type="text" placeholder='050 1234 567' />
                         </label>
                         <br />
                         <label>
-                            <input type="text" placeholder='Sähköposti' />
+                        <p className='LabelP'>Sähköpostiosoite*</p>
+                            <input type="text" placeholder='sähköposti@osoitte.fi' />
                         </label>
                         <br />
                         <label>
-                            <input type="text" placeholder='Puhelin' />
+                        <p className='LabelP'>Paikakunta</p>
+                            <input type="text" />
                         </label>
                         <br />
                         <label>
-                            <textarea placeholder='Viesti'></textarea>
+                        <p className='LabelP'>Viesti*</p>
+                            <textarea ></textarea>
                         </label>
                         </div>
 
                     <br />
-                    <button className='NappiSoitta'>Lähettä</button>
+                    <button className='NappiSoitta1'>Lähettä</button>
                     </div>
+              </div>
+
               
         </>
     );

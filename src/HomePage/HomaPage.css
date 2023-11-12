@@ -70,25 +70,9 @@
 
 .WelcomeText
 {
-    font-size: 55px;
+    font-size: 75px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-}
-
-.NappiSoitta
-{
-    border-radius: 5px;
-    border-style: solid;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 20px;
-}
-
-.NappiSoitta:hover 
-{
-        color: #fff;
-        background: #065fb8;
-
 }
 
 .RadiusImage
@@ -99,11 +83,10 @@
 
 .Footerr
 {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.81);
 }
 .FormDiv
 {
-    display: inline;
     float: left;
     padding-top: 20px;
     width: 100%;
@@ -116,7 +99,9 @@
 }
 
 
-
+.test{
+    background-color: #fff;
+}
 @media screen and (max-width: 767px) {
     .BigDiv{
         padding-top: 25%;

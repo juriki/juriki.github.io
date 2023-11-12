@@ -2,6 +2,7 @@ import Form from '../Form/Form';
 import './HomaPage.css'
 import Footer from '../Footer/footer';
 import Palvelut from '../Palvelut/Palvelut';
+import UncontrolledExample from '../Components/Carousel';
 import React from 'react';
 
 
@@ -23,40 +24,30 @@ function HomePage() {
                 <h1 className='WelcomeText'>
                     TERVETULOA
                 </h1>
-                <a href="/about">
-                <button className='NappiSoitta'>Soita Heti</button>
-                </a>
-              
-                <div style={{ marginTop: 15,}}>
-                    <a href='https://www.facebook.com' target='balnk'>
-                        <img src='facebook.png' width={50} alt="nice"/>
-                    </a >
-                    <a style={{ marginLeft: 15}} href='https://instagram.com/vladlahna?igshid=MzRlODBiNWFlZA==' target='balnk'>
-                        <img src='Instagram.png' width={50} alt="nice" />
-                    </a>           
-                </div>
             </div>
             <div className='RadiusImage'>
-                <img src="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" id="1726990206" class="" data-dm-image-path="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" onerror="handleImageLoadError(this)" alt="nice"/>
+                <img src="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" id="1726990206" class="" data-dm-image-path="https://de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/kaari-ala.svg" onerror="handleImageLoadError(this)" alt="nice" />
             </div>
             <div className='ImageLogo'>
                 <div className='TextDiv'>
-                        <p> OLEMME ERIKOISTUNEET MÄRKÄTILOJEN UUDIS- JA KORJAUSRAKENTAMISEEN SEKÄ TARJOAMME MYÖS MUITA RAKENNUS- JA SANEERAUSPALVELUITA. MEILLE ON TÄRKEÄ ASIAKKAIDEN TYYTYVÄISYYS JA KORKEALAATUINEN TYÖNJÄLKI.</p>
-                </div> 
+                    <h3>Olemme erikoistuneet märkätilojen uudis- ja korjausrakentamiseen sekä tarjoamme myös muita rakennus- ja saneerauspalveluita. Meille on tärkeä asiakkaiden tyytyväisyys ja korkealaatuinentyönjälki. </h3>
+                </div>
             </div>
             <div className='ImageLogoDiv'>
                 <div>
-                    <img className='ImageLogo1' src='VladLogo.png' width={1} alt="nice" />
+                    <UncontrolledExample />
                 </div>
             </div>
             <div className='FormDiv'>
+                <Form />
+            </div>
+            <div className='test'>
                 <Palvelut />
-                <Form /> 
-            </div>  
+            </div>
             <div className='Footerr'>
                 <Footer />
-                
-            </div>   
+
+            </div>
         </>
 
 
