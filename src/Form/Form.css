@@ -76,7 +76,7 @@ p {
 
 .NappiSoitta1:hover {
     color: #fff;
-    background: #065fb8;
+    background: #3a3d3f;
 
 }
 
@@ -84,14 +84,12 @@ p {
 @media screen and (max-width: 767px) {
     .UpForm {
         margin: 2%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
         background-color: rgb(242, 247, 244);
-        width: 99%;
+        width: 95%;
         height: auto;
-        float: right;
-        border-width: 1px;
         background-color: #dddddd;
-        border-style: solid;
         text-align: center;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -113,11 +111,9 @@ p {
     }
 
     .NappiSoitta {
-        border-radius: 5px;
+        border-radius: 1px;
         border-style: solid;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     
