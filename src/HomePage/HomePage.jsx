@@ -22,7 +22,7 @@ function HomePage() {
             <div className='BigDiv'>
 
                 <h1 className='WelcomeText'>
-                    TERVETULOA
+                    TERVETULOA!
                 </h1>
             </div>
             <div className='RadiusImage'>
