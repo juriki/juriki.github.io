@@ -1,6 +1,11 @@
 p
 {
-    font-size: large;
+    font-size: x-large;
     font-weight: 600;
     padding-top: 10%;
+}
+
+.test{
+    padding-top: 10%;
+    font-size: xx-large;
 }

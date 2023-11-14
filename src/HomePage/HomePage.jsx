@@ -17,7 +17,7 @@ function HomePage() {
                 <img
                     className='tyoKuvaHome'
                     src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20220104_130058-1920w.jpg"
-                    alt="Second slide" />
+                    alt="Seconssd slide" />
             </div>
             <div className='BigDiv'>
 

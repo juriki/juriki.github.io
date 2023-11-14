@@ -7,61 +7,60 @@ import React from 'react';
 function Aboute() {
     return (
         <>
-            <div className='test'>
-            <p>
-            HINNAT SISÄLTÄVÄT ALV
-            <br/>
-            LATTIAT : (HINTA KOOSTUU PELKÄSTÄÄN TYÖN OSUUDESTA, ILMAN PURKUA) 
-            <br/>
-            VINYYLI / LAMINAATTI 20e/m2
-            <br/>
-            PARKETTI 40e/m2
-            <br/>
-            MUOVIMATTO 25e/m2
-            <br/>
-            VEDENERISTYSTYÖT: (TYÖ + MATERIAALIT)
-            <br/>
-            PINTA-ALA LATTIASTA KATSOTTUNA, VALMIILLE POHJILLE ALLE 5m2 800e
-            <br/>
-            5-10m2 900e
-            <br/>
-            NANOPINNOITE: (TYÖ + MATERIAALIT)
-            <br/>
-             PINTA-ALA LATTIASTA KATSOTTUNA ALLE 10 m2 600e
-             <br/>
-            10-20 m2 700e
-            <br/>
-            MÄRKÄTILATÖIDEN VALVONTA:
-            <br/>
-            VEDENERISTYSTARKASTUS 300e
-            <br/>
-            3 KÄYNTIÄ (ALKUKARTOITUS, VEDENERISTYS, LOPPUTARKASTUS) 600e KEITTIÖ REMONTIN VALVONTA 250e
-            <br/>
-            NEUVONTA (1h) 180e
-            <br/>
+            <div>
 
-            SILIKONIN VAIHTO: (TYÖ + MATERIAALI)
-            <br/>
-             PINTA-ALA LATTIASTA KATSOTTUNA ALLE 5m2 300e
-             <br/>
-            5-10m2 350e
-            <br/>
+                <div className='test'>
+                    <p>
+                        Hinnat sisältävät alv
+                        lattiat : (hinta koostuu pelkästään työn osuudesta, ilman purkua)
+                        <br />
+                        vinyyli / laminaatti 20e/m2
+                        <br />
+                        parketti 40e/m2
+                        <br />
+                        muovimatto 25e/m2
+                        <br />
+                        vedeneristystyöt: (työ + materiaalit)
+                        <br />
+                        pinta-ala lattiasta katsottuna, valmiille pohjille alle 5m2 800e
+                        <br />
+                        5-10m2 900e
+                        <br /> <br />
+                        Nanopinnoite: (työ + materiaalit)
+                        <br />
+                        pinta-ala lattiasta katsottuna alle 10 m2 600e
+                        <br />
+                        10-20 m2 700e
+                        <br /> <br />
+                        märkätilatöiden valvonta:
+                        <br />
+                        vedeneristystarkastus 300e
+                        <br /><br />
+                        3 käyntiä (alkukartoitus, vedeneristys, lopputarkastus) 600e keittiö remontin valvonta 250e
+                        <br />
+                        neuvonta (1h) 180e
+                        <br /><br />
+                        Silikonin vaihto: (työ + materiaali)
+                        <br />
+                        pinta-ala lattiasta katsottuna alle 5m2 300e
+                        <br />
+                        5-10m2 350e
+                        <br /><br />
+                        mikrosementti: (työ + materiaalit)
+                        <br />
+                        pinta-ala lattiasta katsottuna alle 5m2 4500e
+                        <br />
+                        5-10m2 5500e
+                        <br /><br />
+                        Pyydä tarjous<br />
+                        jos tarvitsen tarjouksen, ota rohkeasti yhteyttä<br />
+                        nimi sähköposti numero paikkakunta aihe viesti<br />
+                    </p>
+                </div>
 
-            MIKROSEMENTTI: (TYÖ + MATERIAALIT)          <br/> 
-            PINTA-ALA LATTIASTA KATSOTTUNA ALLE 5m2 4500e
-            <br/>
-            5-10m2 5500e
-            <br/>
-
-                PYYDÄ TARJOUS
-                <br/>
-                JOS TARVITSEN TARJOUKSEN, OTA ROHKEASTI YHTEYTTÄ
-                <br/>
-                NIMI SÄHKÖPOSTI NUMERO PAIKKAKUNTA AIHE
-                VIESTI
-            </p>
             </div>
-        
+
+
         </>
 
     );

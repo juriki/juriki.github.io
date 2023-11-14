@@ -16,6 +16,7 @@ function Navibar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
+                            <Nav.Link href='/'>Koti</Nav.Link>
                             <Nav.Link href='/order'>Tila Arviointi</Nav.Link>
                             <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
@@ -31,6 +32,7 @@ function Navibar() {
             
         <Router>
                 <Routes>
+                    <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/order' element={<Order/>} />
                     <Route exact path='/about' element={<Aboute/>} />
