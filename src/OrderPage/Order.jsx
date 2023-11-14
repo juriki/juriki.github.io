@@ -1,11 +1,18 @@
 import React from 'react';
+import './Order.css'
 
 
 function Order() {
     return (
+        <>
         <div>
-            <img src='RakennusjaValvonta.png' alt="nice"/>
+        <div className='ImageDiv'>
+            <img className='backgorundImage' src='VladLogo.png' alt="nice"/>
         </div>
+        </div>
+   
+        </>
+
 
 
     );

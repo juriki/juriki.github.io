@@ -6,7 +6,6 @@ function Form() {
     const [nameLastname, setNameLastname] = useState('')
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
-
     const [city, setCity] = useState('')
     const [message, setMessage] = useState('')
 
