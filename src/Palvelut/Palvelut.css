@@ -18,6 +18,12 @@ tr:nth-child(even) {
 .divvq{
 
     background-color: #ffffff;
+    padding-bottom: 3%;
+}
+.h3Size {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -50,5 +56,10 @@ table {
     tr:nth-child(even) {
         background-color: #dddddd;
     }
+        .divvq {
+    
+            background-color: #ffffff;
+            padding-bottom: 3%;
+        }
 
 }

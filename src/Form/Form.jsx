@@ -26,7 +26,7 @@ function Form() {
         <>
               <div className='divv'>
               <p className='Yhteys'>
-                        Pyydä Tarjous
+                        Pyydä Tarjous:
                         </p>
                     <div className='UpForm'>
                     <h6 >

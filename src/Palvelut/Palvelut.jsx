@@ -10,7 +10,7 @@ function Palvelut() {
         <>
             <div className='divvq'>
                 <h3 className='h3Size'>
-                    TARJOAMAT PALVELUT OVAT:
+                    Tarjoamat palvelut ovat:
                 </h3>
                 <table >
                     <tr>
