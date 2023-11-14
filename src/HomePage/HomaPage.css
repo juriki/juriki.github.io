@@ -148,5 +148,14 @@ justify-content: center;
             font-size: 15px;
             padding-left: 30px;
             padding-right: 30px;
-        }            
+        }      
+        
+        .test{
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 20px;
+        }
+        .Footerr{
+            margin-top: -10px;
+            margin-bottom: -20px;
+        }
 }

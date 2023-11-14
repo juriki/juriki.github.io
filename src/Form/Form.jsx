@@ -59,9 +59,7 @@ function Form() {
                         </label>
                         <button className='NappiSoitta1' onClick={lahettin}>Lähettä</button>
                         </div>
-
                     <br />
-
                     </div>
               </div>
 
