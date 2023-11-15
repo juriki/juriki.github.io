@@ -42,12 +42,7 @@ function HomePage() {
                 <Form />
             </div>
             <div className='test'>
-
                 <Palvelut />
-            </div>
-            <div className='Footerr'>
-                <Footer />
-
             </div>
         </>
 

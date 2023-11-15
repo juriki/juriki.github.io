@@ -146,6 +146,7 @@ justify-content: center;
         .test{
             background-color: rgb(255, 255, 255);
             padding-bottom: 20px;
+            margin-bottom: -10px;
         }
         .Footerr{
             margin-top: -10px;

@@ -17,7 +17,6 @@ function Navibar() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
                             <Nav.Link href='/'>Koti</Nav.Link>
-                            <Nav.Link href='/order'>Tila Arviointi</Nav.Link>
                             <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
                         </Nav>
@@ -34,7 +33,6 @@ function Navibar() {
                 <Routes>
                     <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/' element={<HomePage />} />
-                    <Route exact path='/order' element={<Order/>} />
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
                 </Routes>
