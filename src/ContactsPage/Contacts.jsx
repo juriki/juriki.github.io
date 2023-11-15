@@ -4,18 +4,22 @@ import './ContactPage.css'
 import React from 'react';
 
 function Contacts() {
-    
+
     return (
-        <div className='PageTop'>   
+        <div className='PageTop'>
             <div>
-                <Form />  
-            </div>
-            <div>
-                <img className='logo' src='VladLogo.png' alt="Logo"  /> 
+                <div >
+                    <Form />
+                </div>
+                <div>
+
+                    <img className='logo' src='VladLogo.png' alt="Logo" />
+                </div>
+
             </div>
 
             <div>
-                <Palvelut/>
+                <Palvelut />
             </div>
         </div>
 

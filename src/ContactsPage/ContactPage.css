@@ -3,7 +3,9 @@
     padding-top: 200px;
 }
 
-
+.logoForm{
+    float: left;
+}
 
 
 @media screen and (max-width: 767px) {
