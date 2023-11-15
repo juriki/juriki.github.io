@@ -1,6 +1,5 @@
 import Form from '../Form/Form';
 import './HomaPage.css'
-import Footer from '../Footer/footer';
 import Palvelut from '../Palvelut/Palvelut';
 import UncontrolledExample from '../Components/Carousel';
 import React from 'react';
