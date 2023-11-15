@@ -60,13 +60,13 @@ function Form() {
                         <button className='NappiSoitta1' onClick={lahettin}>Lähettä</button>
                     </div>
                     <br />
-                    <a href='https://www.facebook.com/vladislav.lahna/' target='_balnk'>
+                    <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'>
                         <img className='someLogos' src='facebook.png' alt="facebook" target='_balnk'/>
                     </a>
-                    <a href='https://www.instagram.com/vladlahna/?hl=en'>
+                    <a href='https://www.instagram.com/ladlahna/?hl=en'>
                         <img className='someLogos' src='instagramLogo.png' alt="instagram"/>
                     </a>
-                    <a href='tel:+358451386070'>
+                    <a href='tel:+35840000000'>
                         <img className='someLogos' src='phoneLogo.png' alt="call" />
                     </a>
                 </div>
