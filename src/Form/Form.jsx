@@ -9,14 +9,14 @@ function Form() {
     const [city, setCity] = useState('')
     const [message, setMessage] = useState('')
 
-    function lahettin(){
-        if (email.length === '' || nameLastname === ''  || message === '' ){
+    function lahettin() {
+        if (email.length === '' || nameLastname === '' || message === '') {
             alert("Joku kentä on tyhja TEST DEBUG  TODO Delete ")
             console.log("Error")
-        }else{
-            alert("Hei " + nameLastname + " Sinun puhelin " + phone + email + " meilä otamme yhtytä sinun!" )
+        } else {
+            alert("Hei " + nameLastname + " Sinun puhelin " + phone + email + " meilä otamme yhtytä sinun!")
         }
-     
+
     }
 
 
@@ -24,46 +24,55 @@ function Form() {
 
 
         <>
-              <div className='divv'>
-              <p className='Yhteys'>
-                        Pyydä Tarjous:
-                        </p>
-                    <div className='UpForm'>
+            <div className='divv'>
+                <p className='Yhteys'>
+                    Pyydä Tarjous:
+                </p>
+                <div className='UpForm'>
                     <h6 >
                         Jos tarvitset tarjouksen, ota rohkeasti yhteyttä
-                        </h6>
-                        <div className='test1'>
+                    </h6>
+                    <div className='test1'>
                         <label >
-                        <p className='LabelP'>Nimi*</p>
+                            <p className='LabelP'>Nimi*</p>
 
-                            <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' value={nameLastname} onChange={(e)=> setNameLastname(e.target.value)} />
+                            <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} />
                         </label>
                         <label>
-                        <p className='LabelP'>Puhelinnumero*</p>
-                            <input className='inputNamePhone' type="text" placeholder='050 1234 567' value={phone} onChange={(e)=> setPhone(e.target.value)} />
-                        </label>
-                        <br />
-                        <label>
-                        <p className='LabelP'>Sähköpostiosoite*</p>
-                            <input type="text" placeholder='sähköposti@osoitte.fi' value={email} onChange={(e)=> setEmail(e.target.value)}  />
+                            <p className='LabelP'>Puhelinnumero*</p>
+                            <input className='inputNamePhone' type="text" placeholder='050 1234 567' value={phone} onChange={(e) => setPhone(e.target.value)} />
                         </label>
                         <br />
                         <label>
-                        <p className='LabelP'>Paikakunta</p>
-                            <input type="text"  value={city} onChange={(e)=> setCity(e.target.value)} />
+                            <p className='LabelP'>Sähköpostiosoite*</p>
+                            <input type="text" placeholder='sähköposti@osoitte.fi' value={email} onChange={(e) => setEmail(e.target.value)} />
                         </label>
                         <br />
                         <label>
-                        <p className='LabelP'>Viesti*</p>
-                            <textarea className='texArea'  value={message} onChange={(e)=> setMessage(e.target.value)}></textarea>
+                            <p className='LabelP'>Paikakunta</p>
+                            <input type="text" value={city} onChange={(e) => setCity(e.target.value)} />
+                        </label>
+                        <br />
+                        <label>
+                            <p className='LabelP'>Viesti*</p>
+                            <textarea className='texArea' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                         </label>
                         <button className='NappiSoitta1' onClick={lahettin}>Lähettä</button>
-                        </div>
-                    <br />
                     </div>
-              </div>
+                    <br />
+                    <a href='https://www.facebook.com/vladislav.lahna/' target='_balnk'>
+                        <img className='someLogos' src='facebook.png' alt="facebook" target='_balnk'/>
+                    </a>
+                    <a href='https://www.instagram.com/vladlahna/?hl=en'>
+                        <img className='someLogos' src='instagramLogo.png' alt="instagram"/>
+                    </a>
+                    <a href='tel:+358451386070'>
+                        <img className='someLogos' src='phoneLogo.png' alt="call" />
+                    </a>
+                </div>
+            </div>
 
-              
+
         </>
     );
 }
