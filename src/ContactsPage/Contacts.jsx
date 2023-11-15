@@ -12,7 +12,6 @@ function Contacts() {
                     <Form />
                 </div>
                 <div>
-
                     <img className='logo' src='VladLogo.png' alt="Logo" />
                 </div>
 
