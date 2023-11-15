@@ -49,8 +49,8 @@ table {
     td{
   
         border: 1px solid #050000;
-        font-size: 11px;
-        font-weight: bold;
+        font-size: 14px;
+        font-weight: 550;
     }
 
     tr:nth-child(even) {

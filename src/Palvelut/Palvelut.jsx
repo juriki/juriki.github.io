@@ -2,9 +2,9 @@ import React from 'react'
 import './Palvelut.css'
 
 function Palvelut() {
-    const sisatilat = ["Sisämaalaus", "Tapetointi", "Väliseinä", "Rakentaminen", "Vinyylikatto", "Kangaskatto", "Panelointi", "Kalusteiden", "Asennus", "Keittiöremontti", "Kylpyhuoneremontti", "Pienet putkityöt", "Laatoitus", "Sauna", "Laattasaumojen vaihto", "Epoxy pinnoitus"]
+    const sisatilat = ["Sisämaalaus", "Tapetointi", "Väliseinä", "Rakentaminen", "Vinyylikatto", "Kangaskatto", "Panelointi", "Kalusteiden Asennus", "Keittiöremontti", "Kylpyhuoneremontti", "Pienet putkityöt", "Laatoitus", "Sauna", "Laattasaumojen vaihto", "Epoxy pinnoitus"]
 
-    const ulkotilat = ["Vinyyliverhous", "Terassien", "Rakentaminen", "Ulkomaalaus", "Pienrakennusten", "Rakentaminen"]
+    const ulkotilat = ["Vinyyliverhous", "Terassien", "Rakentaminen", "Ulkomaalaus", "Pienrakennusten Rakentaminen"]
 
     return (
         <>

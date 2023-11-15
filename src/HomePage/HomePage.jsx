@@ -37,11 +37,11 @@ function HomePage() {
                     <UncontrolledExample />
                 </div>
             </div>
-            <div className='FormDiv'>
-                <Form />
-            </div>
             <div className='test'>
                 <Palvelut />
+            </div>
+            <div className='FormDiv'>
+                <Form />
             </div>
         </>
 
