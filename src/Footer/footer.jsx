@@ -3,8 +3,12 @@ import React from 'react';
 function Footer() {
     return (
         <div className="Footer" >
-                Puhelin : 040-000 00 00 <br/>
-                Sähköposti vlad_lahna@gmail.cooom
+               <a href='tel:+35840000000'>
+               Puhelin : 040-000 00 00 
+                </a> <br/>
+                <a href='mailto: lahna.vladislav@gmail.com'>
+                Sähköposti lahna.vladislav@gmail.com
+                </a>
         </div>
     );
 }

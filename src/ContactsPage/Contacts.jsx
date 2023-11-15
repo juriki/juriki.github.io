@@ -11,7 +11,7 @@ function Contacts() {
                 <Form />  
             </div>
             <div>
-                <img src='VladLogo.png' alt="nice"  /> 
+                <img className='logo' src='VladLogo.png' alt="Logo"  /> 
             </div>
 
             <div>

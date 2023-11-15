@@ -9,3 +9,18 @@ p
     padding-top: 10%;
     font-size: xx-large;
 }
+
+
+@media screen and (max-width: 767px) {
+
+    .test{
+        padding-top: 22%;
+padding-inline: 2%;
+    }
+    p
+{
+    font-size: medium;
+    font-weight: 500;
+    padding-top: 10%;
+}
+}
