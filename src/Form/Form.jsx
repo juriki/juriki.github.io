@@ -61,9 +61,9 @@ function Form() {
                     </div>
                     <br />
                     <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'>
-                        <img className='someLogos' src='facebook.png' alt="facebook" target='_balnk'/>
+                        <img className='someLogos' src='facebook.png' alt="facebook" />
                     </a>
-                    <a href='https://www.instagram.com/ladlahna/?hl=en'>
+                    <a href='https://www.instagram.com/ladlahna/?hl=en' target='_balnk'>
                         <img className='someLogos' src='instagramLogo.png' alt="instagram"/>
                     </a>
                     <a href='tel:+35840000000'>

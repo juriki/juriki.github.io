@@ -16,7 +16,6 @@ function Contacts() {
                 </div>
 
             </div>
-
             <div>
                 <Palvelut />
             </div>
