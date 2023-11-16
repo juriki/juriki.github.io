@@ -21,11 +21,9 @@ function UncontrolledExample() {
                     </div>
                     <div class="carousel-item">
                     <img className='tyoKuva'src="vladPict7.png"alt="Third slide"/>
-                    <img className='tyoKuvaH'src="vladPict6.png"alt="Third slide"/>
                     </div>
                     <div class="carousel-item">
                         <img class="tyoKuva" src="vladPict4.png" alt="Third slide"/>
-                        <img class="tyoKuvaH" src="vladPict5.png" alt="Third slide"/>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
