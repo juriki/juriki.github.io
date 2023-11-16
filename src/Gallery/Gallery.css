@@ -21,3 +21,31 @@
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+@media screen and (max-width: 767px){
+    .gallery{
+        display: block;
+        max-height: 120px;
+        max-width: 120px;
+        margin: auto;
+        margin-top: 3%;
+    
+    }
+
+.gallery:hover{
+
+    transform: scale(1.1);
+}
+
+.galleryDiv{
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+}
