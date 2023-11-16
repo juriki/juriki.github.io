@@ -11,11 +11,11 @@ function HomePage() {
             <div className='ImageDiv' >
                 <img
                     className='tyoKuvaHome'
-                    src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20190909_110120-1920w.jpg"
-                    alt="First slide" />
+                    src="vladPict8.png"
+                    alt="Main"/>
                 <img
                     className='tyoKuvaHome'
-                    src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20220104_130058-1920w.jpg"
+                    src="valdPic1.jpg"
                     alt="Seconssd slide" />
             </div>
             <div className='BigDiv'>

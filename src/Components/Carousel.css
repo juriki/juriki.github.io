@@ -9,8 +9,9 @@
 
 .tyoKuva
 {
-    width: 50%;
-    height: 20%;
+    max-width: auto;
+    width: auto;
+    height: 700px;
     
 }
 
@@ -20,8 +21,12 @@
     .tyoKuva
     {
         width: 100%;
-        max-height: 700px;
+        max-height: 500px;
         
+    }
+
+    .tyoKuvaH{
+        visibility: hidden
     }
 
 }

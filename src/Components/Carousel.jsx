@@ -14,16 +14,18 @@ function UncontrolledExample() {
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img className='tyoKuva'src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20190909_110120-1920w.jpg"alt="First slide" /> 
+                    <img className='tyoKuva'src="vladPict2.png"alt="First slide" /> 
                     </div>
                     <div class="carousel-item">
-                    <img className='tyoKuva'src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20220104_130058-1920w.jpg"alt="Second slide"/>
+                    <img className='tyoKuva'src="vladPict3.png"alt="Second slide"/>
                     </div>
                     <div class="carousel-item">
-                    <img className='tyoKuva'src="https://le-de.cdn-website.com/2d4ee8058f4c4f6db0c48bc6966c6004/dms3rep/multi/opt/155229_IMG_20190909_105951-1920w.jpg"alt="Third slide"/>
+                    <img className='tyoKuva'src="vladPict7.png"alt="Third slide"/>
+                    <img className='tyoKuvaH'src="vladPict6.png"alt="Third slide"/>
                     </div>
                     <div class="carousel-item">
-                        <img class="tyoKuva" src="VladLogo.png" alt="Third slide"/>
+                        <img class="tyoKuva" src="vladPict4.png" alt="Third slide"/>
+                        <img class="tyoKuvaH" src="vladPict5.png" alt="Third slide"/>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
