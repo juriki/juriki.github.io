@@ -8,11 +8,14 @@ function Palvelut() {
 
     return (
         <>
+
             <div className='divvq'>
-                <h3 className='h3Size'>
-                    Tarjoamat palvelut ovat:
-                </h3>
                 <table >
+                    <tr>
+                        <h1 className='nyt'>
+                            Tarjoamat palvelut ovat:
+                        </h1>
+                    </tr>
                     <tr>
                         <th>SISÄTILAT</th>
                         <th>ULKOTILAT</th>

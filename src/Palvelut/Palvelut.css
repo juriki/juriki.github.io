@@ -1,7 +1,9 @@
 table {
-    font-size: large;
+ font-size: large;
   border-collapse: collapse;
-  width: 100%;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -23,7 +25,14 @@ tr:nth-child(even) {
 .h3Size {
     font-size: 30px;
     font-weight: 800;
+    height: auto;
+    
     text-align: center;
+}
+
+.nyt{
+    text-align: right;
+    padding: -10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -59,6 +68,13 @@ table {
     
             background-color: #ffffff;
             padding-bottom: 3%;
+        }
+
+        .nyt{
+            text-align: right;
+            font-size: larger;
+            font-weight: 400;
+            padding: -10px;
         }
 
 }
