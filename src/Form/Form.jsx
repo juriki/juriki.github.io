@@ -57,6 +57,7 @@ function Form() {
                             <p className='LabelP'>Viesti*</p>
                             <textarea className='texArea' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                         </label>
+                        <br/>
                         <button className='NappiSoitta1' onClick={lahettin}>Lähetä</button>
                     </div>
                     <br />
