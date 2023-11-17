@@ -8,13 +8,13 @@ function Palvelut() {
 
     return (
         <>
-
-            <div className='divvq'>
-                <table >
-                    <tr>
-                        <h1 className='nyt'>
+        <div className='palvelutDiv'>
+        <h1 className='nyt'>
                             Tarjoamat palvelut ovat:
                         </h1>
+                <table >
+                    <tr>
+
                     </tr>
                     <tr>
                         <th>SISÄTILAT</th>
@@ -29,7 +29,7 @@ function Palvelut() {
                         )
                     })}
                 </table>
-            </div>
+        </div>
 
         </>
     );

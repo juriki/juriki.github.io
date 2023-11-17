@@ -17,23 +17,23 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.divvq{
-
-    background-color: #ffffff;
+.tauluDiv{
+    background-color: #532323;
     padding-bottom: 3%;
 }
-.h3Size {
+.nyt {
     font-size: 30px;
     font-weight: 800;
-    height: auto;
-    
+    height: auto;   
     text-align: center;
 }
 
-.nyt{
-    text-align: right;
-    padding: -10px;
+.palvelutDiv{
+    width: 100%;
+    height: 950px;
+    background-color: #fff;
 }
+
 
 @media screen and (max-width: 767px) {
 
@@ -43,8 +43,10 @@ table {
         border-collapse: collapse;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-.h3Size{
-    font-size: 20px;
+.nyt{
+    font-size: 30px;
+    font-weight: 800;
+    height: auto;   
     text-align: center;
 }
 
@@ -68,13 +70,6 @@ table {
     
             background-color: #ffffff;
             padding-bottom: 3%;
-        }
-
-        .nyt{
-            text-align: right;
-            font-size: larger;
-            font-weight: 400;
-            padding: -10px;
         }
 
 }

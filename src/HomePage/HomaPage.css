@@ -35,6 +35,12 @@
     float: left;
 }
 
+.galleryDiv{
+    width: 100%;
+    height: 1016px;
+    padding-inline: 5%;
+    background-color: #fff;
+}
 
 
 .tyoKuvaHome
@@ -61,6 +67,8 @@
 
 .WelcomeText
 {
+    text-align: center;
+    padding-top: 10%;
     font-size: 75px;
     font-weight: 700;
     color: rgb(19, 16, 16);
@@ -145,4 +153,13 @@ justify-content: center;
                     font-weight: 800;
                     color: rgb(255, 255, 255);
                 }
+
+
+                .galleryDiv{
+                    width: 100%;
+                    height: 700px;
+                    padding-inline: 5%;
+                    background-color: #fff;
+                }
+                
 }

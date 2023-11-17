@@ -5,7 +5,11 @@
 }
 
 .divv {
-    margin-inline: auto;
+   
+    padding-inline: 10%;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
 
 }
 
@@ -27,7 +31,6 @@ h6 {
     padding-bottom: 3%;
     background-color: #dddddd;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 3%;
 }
 
 .test1 {
@@ -103,7 +106,7 @@ p {
     }
 
     input {
-        width: 370px;
+        width: 100%;
         height: 35px;
         padding-left: 20px;
         padding-right: 20px;
