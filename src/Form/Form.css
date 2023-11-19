@@ -86,16 +86,15 @@
 @media screen and (max-width: 767px) {
     .formMAindiv{
         background-color: #fff;
-        width: 100%;
+        width: 98%;
         height: 50%;
         margin-top: auto;
         text-align: center;
     
     }
     .mainText{
-        margin-left: 20%;
         text-align: center;
-        width: 100%;
+        width: 98%;
     }
     .Yhteys{
         font-size: xx-large;
@@ -104,11 +103,8 @@
     
     
     .upForm{
-        padding: 1%;
         height: auto;
         width: 98%;
-
-        margin-inline: 20%;
         background-color: #dddddd;
         padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
