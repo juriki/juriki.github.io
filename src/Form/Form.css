@@ -96,7 +96,6 @@
         margin-left: 20%;
         text-align: center;
         width: 100%;
-        max-width: 600px;
     }
     .Yhteys{
         font-size: xx-large;
@@ -108,7 +107,7 @@
         padding: 1%;
         height: auto;
         width: 98%;
-        max-width: 600px;
+
         margin-inline: 20%;
         background-color: #dddddd;
         padding-bottom: 50px;
