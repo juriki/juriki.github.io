@@ -13,7 +13,9 @@ function Galleri() {
                 {kuvat.map((kuva) => {
                     return (
                         <div className='galleryDiv1'>
-                            <img className='gallery' src={kuva} alt="Cinque Terre" />
+                           <a href={kuva}>
+                           <img className='gallery' src={kuva} alt="Cinque Terre" />
+                            </a>
                         </div>
                     )
                 })}
