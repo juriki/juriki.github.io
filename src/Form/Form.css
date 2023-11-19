@@ -97,14 +97,14 @@
         width: 98%;
     }
     .Yhteys{
-        font-size: xx-large;
-        font-weight: 800;
+        font-size: large;
+        font-weight: 600;
     }
     
     
     .upForm{
         height: auto;
-        width: 98%;
+        width: 94%;
         background-color: #dddddd;
         padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
