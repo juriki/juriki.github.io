@@ -1,5 +1,5 @@
 import React from 'react'
-import './PriceList.css'
+//import './PriceList.css'
 
 function PriceList(props) {
 
