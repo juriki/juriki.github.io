@@ -2,12 +2,8 @@ import React from 'react'
 //import './PriceList.css'
 
 function PriceList(props) {
-
-    var hinta = "Hinta"
-
     return (
         <>
-
             <div>
                 <h3 style={{marginBottom: "-10px"}}>
                     {props.palveluNimi}
