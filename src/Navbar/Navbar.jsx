@@ -26,7 +26,7 @@ function Navibar() {
                             </h2>
                     </Navbar.Text>
                     <Navbar.Brand href="/">
-                        <img className='Logo' src='VladLogo.png' alt="nice" />
+                        <img className='Logo' src='VladLogo.png' alt="Vl-Logo" />
                     </Navbar.Brand>
                 </Container>
 
