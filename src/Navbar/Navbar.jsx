@@ -20,6 +20,11 @@ function Navibar() {
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+                    <Navbar.Text style={{color:"white", paddingRight: "10%", fontWeight: "200"}}>
+                        <h2>
+                        VL-Rakennus-ja-valvonta
+                            </h2>
+                    </Navbar.Text>
                     <Navbar.Brand href="/">
                         <img className='Logo' src='VladLogo.png' alt="nice" />
                     </Navbar.Brand>
