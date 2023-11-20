@@ -1,7 +1,6 @@
 import Form from '../Form/Form';
 import './HomaPage.css'
 import Palvelut from '../Palvelut/Palvelut';
-//import UncontrolledExample from '../Components/Carousel';
 import React from 'react';
 import Galleri from '../Gallery/Gallery';
 
