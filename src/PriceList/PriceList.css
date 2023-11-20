@@ -1,0 +1,23 @@
+.priceTabelMainDiv{
+    width: 49%;
+    float: left;
+    height: 400px;
+}
+
+.otherText{
+    padding: auto;
+    padding-top: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.labelText{
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+}
+
+.thTyo{
+    width: 70%;
+}

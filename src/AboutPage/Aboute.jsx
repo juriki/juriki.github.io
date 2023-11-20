@@ -35,11 +35,11 @@ function Aboute() {
         <>
             <div style={{paddingTop: "200px"}}>
                 <PriceList palveluNimi="Lattia" otherText={lattiaText}  tyot={lattia} hinta={lattiaHinta}/>
-                <PriceList palveluNimi="VEDENERISTYS" otherText={vedeneristysText} tyot={vedeneristys} hinta={vedeneristysHinta}/>
-                <PriceList palveluNimi="NANOPINNOITE" otherText={naopinnoteText} tyot={naopinnote} hinta={naopinnoteHinta}/>
-                <PriceList palveluNimi="MÄRKÄTILATÖIDEN VALVONTA" otherText={markatilavalvontaText} tyot={markatilavalvonta} hinta={markatilavalvontaHinta}/>
-                <PriceList palveluNimi="SILIKONIN VAIHTO" otherText={silikoninVaihtoText} tyot={silikoninVaihto} hinta={silikoninVaihtoHinta}/>
-                <PriceList palveluNimi="MIKROSEMENTTI" otherText={mikrosementtiTekst} tyot={mikrosementti} hinta={mikrosementtiHinta}/>
+                <PriceList palveluNimi="Märkätilatöiden valvonta" otherText={markatilavalvontaText} tyot={markatilavalvonta} hinta={markatilavalvontaHinta}/>
+                <PriceList palveluNimi="Nanopinnoite" otherText={naopinnoteText} tyot={naopinnote} hinta={naopinnoteHinta}/>
+                <PriceList palveluNimi="Vedeneristys" otherText={vedeneristysText} tyot={vedeneristys} hinta={vedeneristysHinta}/>
+                <PriceList palveluNimi="Silikonin vaihto" otherText={silikoninVaihtoText} tyot={silikoninVaihto} hinta={silikoninVaihtoHinta}/>
+                <PriceList palveluNimi="Mikrosementti" otherText={mikrosementtiTekst} tyot={mikrosementti} hinta={mikrosementtiHinta}/>
             </div>
 
 

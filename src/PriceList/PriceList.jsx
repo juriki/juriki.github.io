@@ -1,17 +1,15 @@
 import React from 'react'
-//import './PriceList.css'
+import './PriceList.css'
 
 function PriceList(props) {
     return (
         <>
-            <div>
-                <h3 style={{marginBottom: "-10px"}}>
-                    {props.palveluNimi}
-                </h3>
-                <p>{props.otherText}</p>
+            <div className='priceTabelMainDiv'>
+                <p className='labelText'>{props.palveluNimi}</p>
+                <p className='otherText'>{props.otherText}</p>
                 <table >
                     <tr>
-                        <th>Työ</th>
+                        <th className='thTyo'>Työ</th>
                         <th>Hina</th>
                     </tr>
                     {props.tyot.map((tyo, index) => {
