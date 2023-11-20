@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vladhttp/static/css/main.fd26d38a.css",
-    "main.js": "/vladhttp/static/js/main.35791d43.js",
+    "main.js": "/vladhttp/static/js/main.58fc174d.js",
     "static/js/787.f1ff7326.chunk.js": "/vladhttp/static/js/787.f1ff7326.chunk.js",
     "index.html": "/vladhttp/index.html",
     "main.fd26d38a.css.map": "/vladhttp/static/css/main.fd26d38a.css.map",
-    "main.35791d43.js.map": "/vladhttp/static/js/main.35791d43.js.map",
+    "main.58fc174d.js.map": "/vladhttp/static/js/main.58fc174d.js.map",
     "787.f1ff7326.chunk.js.map": "/vladhttp/static/js/787.f1ff7326.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd26d38a.css",
-    "static/js/main.35791d43.js"
+    "static/js/main.58fc174d.js"
   ]
 }
