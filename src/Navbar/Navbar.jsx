@@ -16,7 +16,7 @@ function Navibar() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
                             <Nav.Link href='/'>Koti</Nav.Link>
-                            <Nav.Link href='/vladhttp/about'>Hinnasto</Nav.Link>
+                            <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
