@@ -42,17 +42,17 @@ function Form() {
                     </label>
                     <label  className='labelHalf'>
                         <p className='LabelP'>Puhelinnumero*</p>
-                        <input className='inputNamePhone' type="text" placeholder='050 1234 567' value={phone} onChange={(e) => setPhone(e.target.value)} />
+                        <input className='inputNamePhone' type="text" placeholder='0453400453' value={phone} onChange={(e) => setPhone(e.target.value)} />
                     </label>
                     <br />
                     <label className='labelFull'>
                         <p className='LabelP'>Sähköpostiosoite*</p>
-                        <input className='Inputik' type="text" placeholder='sähköposti@osoitte.fi' value={email} onChange={(e) => setEmail(e.target.value)} />
+                        <input className='Inputik' type="text" placeholder='vl.rakennus@gmail.com' value={email} onChange={(e) => setEmail(e.target.value)} />
                     </label>
                     <br />
                     <label className='labelFull'>
                         <p className='LabelP'>Paikakunta</p>
-                        <input className='Inputik'  type="text" value={city} onChange={(e) => setCity(e.target.value)} />
+                        <input className='Inputik'  type="text" value={city} onChange={(e) => setCity(e.target.value)} placeholder='Uusimaa' />
                     </label>
                     <br />
                     <label className='labelFull'>
@@ -64,10 +64,8 @@ function Form() {
                     <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'>
                         <img className='someLogos' src='facebook.png' alt="facebook" />
                     </a>
-                    <a href='https://www.instagram.com/ladlahna/?hl=en' target='_balnk'>
-                        <img className='someLogos' src='instagramLogo.png' alt="instagram" />
-                    </a>
-                    <a href='tel:+35840000000'>
+ 
+                    <a href='tel:+358453400453'>
                         <img className='someLogos' src='phoneLogo.png' alt="call" />
                     </a>
                 </div>
