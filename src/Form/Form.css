@@ -21,9 +21,9 @@
 .upForm{
     padding: 1%;
     height: auto;
-    width: 50%;
+    width: 90%;
     max-width: 600px;
-    margin-inline: 20%;
+    margin-left: 10px;
     background-color: #dddddd;
     padding-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -106,7 +106,7 @@
     .upForm{
         height: auto;
         float: left;
-        width: 80%;
+        width: 90%;
         background-color: #dddddd;
         padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

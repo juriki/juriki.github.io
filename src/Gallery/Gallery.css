@@ -1,9 +1,9 @@
 .gallery{
-        max-height: 90%;
-        max-width:90%;
-        display: block;
+        max-height: 100%;
+        max-width:100%;
+        display:flexbox;
         margin: auto;
-        padding: 4%;
+        padding: 3%;
     }
 
 .gallery:hover{
@@ -16,7 +16,9 @@
     border-width: 1px;
     margin: 20px;
     float: left;
-    width: 15%;
+    height: 290px;
+    max-height: 300px;
+    max-width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -32,11 +34,11 @@
 
 @media screen and (max-width: 1000px){
     .gallery{
-        max-height: 90%;
-        max-width:90%;
-        display: block;
+        max-height: 100%;
+        max-width:100%;
+        display:flexbox;
         margin: auto;
-        padding: 4%;
+        padding: 3%;
     }
 
 .gallery:hover{
@@ -49,7 +51,9 @@
     border-width: 1px;
     margin: 20px;
     float: left;
-    width: 25%;
+    height: 250px;
+    max-height: 260px;
+    max-width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -66,12 +70,11 @@
 
 @media screen and (max-width: 768px){
     .gallery{
-        max-height: 132px;
-        min-height: 132px;
-        max-width:90%;
-        display: block;
+        max-height: 100%;
+        max-width:100%;
+        display:flexbox;
         margin: auto;
-        padding: 4%;
+        padding: 3%;
     }
 
 .gallery:hover{
@@ -83,8 +86,10 @@
     border-style: solid;
     border-width: 1px;
     margin-top: 10px;
+    height: 200px;
+    max-height: 210px;
     float: left;
-    width: 37%;
+    max-width: 37%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

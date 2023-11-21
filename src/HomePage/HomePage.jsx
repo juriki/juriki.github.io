@@ -28,7 +28,16 @@ function HomePage() {
             <Galleri />
             </div>
             <Palvelut />
-            <Form />
+            
+            <div style={{backgroundColor:"white"}}>
+                <div className='formDivContactPage'>
+                    <Form  />
+                </div>
+                <div>
+                    <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta"/>
+                </div>
+            </div>
+  
 
         </>
 

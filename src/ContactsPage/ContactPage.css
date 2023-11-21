@@ -8,9 +8,24 @@
 }
 
 
+.formDivContactPage{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
 @media screen and (max-width: 767px) {
 
     .logo{
         width: 100%;
+    }
+
+
+    .formDivContactPage{
+        float: left;
+        width: 99%;
+        padding-left: 5%;
+        height: 100%;
     }
 }
