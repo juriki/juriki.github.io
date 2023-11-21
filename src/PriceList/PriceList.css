@@ -21,3 +21,33 @@
 .thTyo{
     width: 70%;
 }
+
+
+
+@media screen and (max-width: 1050px) {
+
+    .priceTabelMainDiv{
+        width: 98%;
+        float: left;
+        height: 400px;
+    }
+    
+    .otherText{
+        padding: auto;
+        padding-top: 1px;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    
+    .labelText{
+        font-size: x-large;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .thTyo{
+        width: 70%;
+    }
+    
+    }

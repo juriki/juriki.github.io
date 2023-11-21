@@ -8,8 +8,7 @@ function Galleri() {
 
     return (
         <>
-              <div className='galleryDiv'>
-            <div className='aaaa'>
+              <div className='galleryMainDiv'>
                 {kuvat.map((kuva) => {
                     return (
                         <div className='galleryDiv1'>
@@ -19,7 +18,6 @@ function Galleri() {
                         </div>
                     )
                 })}
-            </div>
             </div>
         </>
     );

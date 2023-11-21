@@ -23,10 +23,10 @@ function HomePage() {
             <div className='TextDiv'>
                 <h3>Olemme erikoistuneet märkätilojen uudis- ja korjausrakentamiseen sekä tarjoamme myös muita rakennus- ja saneerauspalveluita. Meille on tärkeä asiakkaiden tyytyväisyys ja korkealaatuinentyönjälki. </h3>
             </div>
-            <div className='galleryDiv'>
-                <Galleri />
+        
+            <div style={{width:"100%",  backgroundColor:"white", height:"auto"}}>
+            <Galleri />
             </div>
-
             <Palvelut />
             <Form />
 
