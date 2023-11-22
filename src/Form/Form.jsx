@@ -5,19 +5,35 @@ function Form() {
 
     const [nameLastname, setNameLastname] = useState('')
     const [phone, setPhone] = useState('')
+    const [phoneErrorMessage, setPhoneErrorMessage] = useState('#fff')
     const [email, setEmail] = useState('')
+    const [emailErrorMessage, setEmailErrorMessage] = useState('#fff')
     const [city, setCity] = useState('')
     const [message, setMessage] = useState('')
+    const [messageErrorMessage, setMessageError] = useState('#fff')
 
-    function lahettin() {
-        if (email.length === '' || nameLastname === '' || message === '') {
-            alert("Joku kentä on tyhja TEST DEBUG  TODO Delete ")
-            console.log("Error")
-        } else {
-            alert("Hei " + nameLastname + " Sinun puhelin " + phone + email + " meilä otamme yhtytä sinun!")
+ function lahettin() {
+        if (email === ''){
+            setEmailErrorMessage('#ff000030')
+        }else{
+            setEmailErrorMessage('#fff')
+        }
+        if ( phone === ''){
+                setPhoneErrorMessage('#ff000030')
+        }else{
+            setPhoneErrorMessage('#fff')
+        }
+
+        if ( message === ''){
+            setMessageError('#ff000030')
+        }else{
+            setPhoneErrorMessage('#fff')
         }
 
     }
+
+
+
 
 
     return (
@@ -42,12 +58,12 @@ function Form() {
                     </label>
                     <label  className='labelHalf'>
                         <p className='LabelP'>Puhelinnumero*</p>
-                        <input className='inputNamePhone' type="text" placeholder='0453400453' value={phone} onChange={(e) => setPhone(e.target.value)} />
+                        <input className='inputNamePhone' type="text" placeholder='0453400453' style={{backgroundColor: phoneErrorMessage}} value={phone} onChange={(e) => setPhone(e.target.value)} />
                     </label>
                     <br />
                     <label className='labelFull'>
                         <p className='LabelP'>Sähköpostiosoite*</p>
-                        <input className='Inputik' type="text" placeholder='vl.rakennus@gmail.com' value={email} onChange={(e) => setEmail(e.target.value)} />
+                        <input className='Inputik' type="text" placeholder='vl.rakennus@gmail.com' style={{backgroundColor: emailErrorMessage}} value={email} onChange={(e) => setEmail(e.target.value)} />
                     </label>
                     <br />
                     <label className='labelFull'>
@@ -57,7 +73,7 @@ function Form() {
                     <br />
                     <label className='labelFull'>
                         <p className='LabelP'>Viesti*</p>
-                        <textarea className='Inputik' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                        <textarea className='Inputik' style={{backgroundColor: messageErrorMessage}} value={message} onChange={(e) =>  setMessage(e.target.value)}></textarea>
                     </label>
                     <br />
                     <button className='NappiSoitta1' onClick={lahettin}>Lähetä</button>

@@ -38,7 +38,7 @@
 
 .inputNamePhone{
     border: #dddddd;
-    width: 100%;
+    width: 99%;
     border-bottom: 1px solid rgb(12, 1, 1);
     
 }
@@ -79,7 +79,6 @@
 .LabelP{
     font-size: 12px;
     margin-bottom: 1px;
-    margin-top: -30px;
     text-align: left;
 }
 
@@ -162,7 +161,6 @@
     .LabelP{
         font-size: 12px;
         margin-bottom: 1px;
-        margin-top: -30px;
         text-align: left;
     }
     
