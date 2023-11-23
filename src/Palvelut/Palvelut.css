@@ -33,6 +33,7 @@ tr:nth-child(even) {
     height: 100%;
     float: left;
     background-color: #fff;
+    margin-bottom: 20px;
 }
 
 

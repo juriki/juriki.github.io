@@ -171,8 +171,12 @@ justify-content: center;
 
 @media screen and (max-width: 1247px) {
     .logo{
-        margin-top: 0px;
-        max-height: 0px;
+        margin-top: 50px;
+        max-width: 45%;
+    }
+    .formDivContactPage{
+        background-color: #fff;
+        width: 100%;
     }
     
 }

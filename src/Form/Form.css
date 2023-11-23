@@ -99,17 +99,15 @@
         width: 60%;
     }
     .Yhteys{
-        font-size: large;
+        font-size: x-large;
         font-weight: 600;
     }
     
     
     .upForm{
         height: auto;
-        float: left;
         width: 90%;
         background-color: #dddddd;
-        padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -164,6 +162,10 @@
         font-size: 12px;
         margin-bottom: 1px;
         text-align: left;
+    }
+    .myH5{
+        font-size: medium;
+        font-weight: 500;
     }
     
 }

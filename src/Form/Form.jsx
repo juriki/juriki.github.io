@@ -58,7 +58,7 @@ function Form() {
                     Pyydä Tarjous:
                 </p>
                 <div className='upForm'>
-                    <h5 >Jos tarvitset tarjouksen, ota rohkeasti yhteyttä</h5>
+                    <h5 className='myH5' >Jos tarvitset tarjouksen, ota rohkeasti yhteyttä</h5>
                     <label className='labelHalf' >
                         <p className='LabelP'>Nimi*</p>
                         <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} style={{ backgroundColor: nameLastnameErrorMessage }} />

@@ -1,7 +1,6 @@
 .gallery{
-        max-height: 100%;
-        max-width:100%;
-        display:flexbox;
+        height: 100%;
+        width:100%;
         margin: auto;
         padding: 3%;
     }
@@ -12,67 +11,31 @@
 }
 
 .galleryDiv1{
-    border-style: solid;
-    border-width: 1px;
-    margin: 20px;
+    margin: 10px;
     float: left;
-    height: 290px;
-    max-height: 300px;
-    max-width: 20%;
+    max-height: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .galleryMainDiv{
-    padding-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-bottom: 10px;
     width: 100%;
     height: 100%;
-    float: left;
+    margin: auto;
+    max-width: 75%;
     background-color: #fff;
 }
 
 
-@media screen and (max-width: 1000px){
-    .gallery{
-        max-height: 100%;
-        max-width:100%;
-        display:flexbox;
-        margin: auto;
-        padding: 3%;
-    }
-
-.gallery:hover{
-
-    transform: scale(1.02);
-}
-
-.galleryDiv1{
-    border-style: solid;
-    border-width: 1px;
-    margin: 20px;
-    float: left;
-    height: 250px;
-    max-height: 260px;
-    max-width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-.galleryMainDiv{
-    padding-left: 10%;
-    width: 100%;
-    height: 100%;
-    float: left;
-    background-color: #fff;
-}
-}
 
 
 @media screen and (max-width: 768px){
     .gallery{
-        max-height: 100%;
-        max-width:100%;
-        display:flexbox;
+        height: 100%;
+        width:100%;
         margin: auto;
         padding: 3%;
     }
@@ -83,22 +46,22 @@
 }
 
 .galleryDiv1{
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 10px;
-    height: 200px;
-    max-height: 210px;
+    margin: 10px;
     float: left;
-    max-width: 37%;
+    max-height: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .galleryMainDiv{
-    padding-left: 1%;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 10px;
+    width: 90%;
     height: 100%;
-    float: left;
+    margin: auto;
+    max-width: 75%;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 }

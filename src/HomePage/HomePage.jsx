@@ -24,7 +24,7 @@ function HomePage() {
                 <h3>Olemme erikoistuneet märkätilojen uudis- ja korjausrakentamiseen sekä tarjoamme myös muita rakennus- ja saneerauspalveluita. Meille on tärkeä asiakkaiden tyytyväisyys ja korkealaatuinentyönjälki. </h3>
             </div>
         
-            <div style={{width:"100%",  backgroundColor:"white", height:"auto"}}>
+            <div style={{width:"100%",  backgroundColor:"white", height:"auto", paddingBottom:'20px'}}>
             <Galleri />
             </div>
             <Palvelut />
