@@ -11,6 +11,10 @@
 
 }
 
+.logo{
+    margin-left: 10px;
+    height: auto;
+}
 
 
 .ImageLogo1 {
@@ -35,7 +39,10 @@
     float: left;
 }
 
-
+.logo{
+    margin-top: 20px;
+    max-height: 500px;
+}
 
 .tyoKuvaHome
 {
@@ -156,5 +163,16 @@ justify-content: center;
                     padding-inline: 5%;
                     background-color: #fff;
                 }
-                
+                .logo{
+                    margin-top: 0px;
+                    max-height: 0px;
+                }
+}
+
+@media screen and (max-width: 1247px) {
+    .logo{
+        margin-top: 0px;
+        max-height: 0px;
+    }
+    
 }
