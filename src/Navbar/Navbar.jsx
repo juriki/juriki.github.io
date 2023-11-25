@@ -5,6 +5,7 @@ import React from 'react';
 import Aboute from '../AboutPage/Aboute';
 import Contacts from '../ContactsPage/Contacts';
 import HomePage from '../HomePage/HomePage';
+import Kuvat from '../KuvatPage/Kuvat';
 
 
 function Navibar() {
@@ -18,6 +19,11 @@ function Navibar() {
                             <Nav.Link href='/'>Koti</Nav.Link>
                             <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
+                          {
+                            //  <Nav.Link href='/kuvat'>Kuvat</Nav.Link>
+                          }
+                           
+
                         </Nav>
                     </Navbar.Collapse>
                     <Navbar.Brand href="/">
@@ -35,6 +41,7 @@ function Navibar() {
                     <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
+                    <Route exact path='/kuvat' element={<Kuvat/>} />
                 </Routes>
         </Router>
         </>

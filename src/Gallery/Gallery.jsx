@@ -1,15 +1,14 @@
 import React from 'react'
 import './Gallery.css'
 
-function Galleri() {
+function Galleri(props) {
 
-    const kuvat = ["vladPict2.png", "vladPict10.png", "vladPict11.png", "vladPict4.png", "vladPict3.png", "vladPict1.png", "vladPict7.png", "vladPict8.png", "vladPict9.png", "vladPict5.png", "vladPict6.png",]
 
 
     return (
         <>
               <div className='galleryMainDiv'>
-                {kuvat.map((kuva) => {
+                {props.kuvat.map((kuva) => {
                     return (
                         <div className='galleryDiv1'>
                            <a href={kuva}>

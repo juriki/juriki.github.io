@@ -4,9 +4,13 @@ import Palvelut from '../Palvelut/Palvelut';
 //import UncontrolledExample from '../Components/Carousel';
 import React from 'react';
 import Galleri from '../Gallery/Gallery';
+import Kuvat from '../KuvatPage/Kuvat';
 
 
 function HomePage() {
+
+    const kuvat = ["vladPict2.png", "vladPict10.png", "vladPict11.png", "vladPict4.png", "vladPict3.png", "vladPict1.png", "vladPict7.png", "vladPict8.png", "vladPict9.png", "vladPict5.png", "vladPict6.png"]
+
     return (
         <>
             <div className='ImageDiv' >
@@ -25,7 +29,7 @@ function HomePage() {
             </div>
         
             <div style={{width:"100%",  backgroundColor:"white", height:"auto", paddingBottom:'20px'}}>
-            <Galleri />
+            <Galleri kuvat={kuvat} />
             </div>
             <Palvelut />
             

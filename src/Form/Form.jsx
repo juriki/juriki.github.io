@@ -2,6 +2,8 @@ import './Form.css'
 import React, { useState } from 'react';
 
 function Form() {
+
+    
     // NAME LASTNAME input
     const [nameLastname, setNameLastname] = useState('')
     const [nameLastnameErrorMessage, setNameLastnameErromMessage] = useState('#fff')
