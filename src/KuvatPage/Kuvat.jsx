@@ -14,7 +14,7 @@ function Kuvat() {
         <>
            
             <h1 style={{paddingTop:"100px"}}>
-       
+       test
             </h1>
             <Galleri kuvat={kuvat}/>
         </>

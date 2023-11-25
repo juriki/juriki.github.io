@@ -4,7 +4,6 @@ import Palvelut from '../Palvelut/Palvelut';
 //import UncontrolledExample from '../Components/Carousel';
 import React from 'react';
 import Galleri from '../Gallery/Gallery';
-import Kuvat from '../KuvatPage/Kuvat';
 
 
 function HomePage() {
