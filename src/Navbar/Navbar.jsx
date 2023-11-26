@@ -6,9 +6,10 @@ import Aboute from '../AboutPage/Aboute';
 import Contacts from '../ContactsPage/Contacts';
 import HomePage from '../HomePage/HomePage';
 import Kuvat from '../KuvatPage/Kuvat';
+import OldNew from '../OldNewImage/OldNew';
 
 
-function Navibar() {
+function Navibar(props) {
     return (
         <>
             <Navbar className='naviBar' collapseOnSelect expand="md" variant="yllow" >
@@ -42,6 +43,7 @@ function Navibar() {
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
                     <Route exact path='/kuvat' element={<Kuvat/>} />
+                    <Route exact path='/oldnew' element={<OldNew ok={props.test} />} />
                 </Routes>
         </Router>
         </>
