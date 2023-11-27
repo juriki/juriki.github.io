@@ -5,7 +5,7 @@ function Footer() {
         <div className="Footer" >
              
             Puhelin :<a href='tel:+358453400453'> 0453400453</a> <br/>
-            Sähköposti : <a href='mailto: vl.rakenus@gmail.com'>vl.rakenus@gmail.com</a>
+            Sähköposti : <a href='mailto: vl.rakennus@gmail.com'>vl.rakennus@gmail.com</a>
         </div>
     );
 }

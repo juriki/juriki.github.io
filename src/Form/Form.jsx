@@ -21,6 +21,7 @@ function Form() {
     const [messageErrorMessage, setMessageError] = useState('#fff')
 
     const [senderError, setSenderError] = useState(true)
+    const [buttenEanbled, setButtonEnabled] = useState('')
 
     function lahettin(e) {
         e.preventDefault();
@@ -68,6 +69,7 @@ function Form() {
                   setMessage('')
                   setNameLastname('')
                   setCity('')
+                  setButtonEnabled('disabled')
 
               }, (error) => {
                   console.log(error.text);
@@ -115,7 +117,7 @@ function Form() {
                     </div>
                     <textarea onBlur={e => errorHandler(e)} className='Inputik' style={{ backgroundColor: messageErrorMessage }} value={message} onChange={(e) => setMessage(e.target.value)} maxLength={"1000"} name='message'></textarea>
                     <br />
-                    <input className='NappiSoitta1' type="submit" value="Lähettä" />
+                    <input disabled={buttenEanbled} className='NappiSoitta1' type="submit" value="Lähettä" />
               
                     <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'><img className='someLogos' src='facebook.png' alt="facebook" /></a>
                     <a href='tel:+358453400453'><img className='someLogos' src='phoneLogo.png' alt="call" /></a>
