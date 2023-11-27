@@ -25,7 +25,7 @@ function Navibar(props) {
 
                         </Nav>
                     </Navbar.Collapse>
-                    <div style={{float: 'right'}}>
+                    <div style={{float: 'right',  marginBottom: '-7px'}}>
                     <Navbar.Brand href="/">
                         <img className='Logo' src='VladLogo.png' alt="nice" />
                     </Navbar.Brand>
