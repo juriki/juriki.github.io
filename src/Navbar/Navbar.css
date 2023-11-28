@@ -1,4 +1,7 @@
-
+.navbar-nav .nav-link {
+    /* padding-right: 5px; */
+    padding-left: 12px;
+}
 
 .naviBar
 {
