@@ -4,8 +4,6 @@ import './Gallery.css'
 function Galleri(props) {
 
     function Form(e, kuva1) {
-
-        alert(e.src)
           console.log('You clicked submit.'+ e.name);
           console.log('You clicked submit.' + kuva1);
     }
