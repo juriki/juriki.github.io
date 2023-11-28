@@ -14,7 +14,7 @@ function HomePage() {
         <>
             <div className='ImageDiv' >
                 <img
-                    className='tyoKuvaHome' src="vladPict8.png" alt="Main" />
+                    className='tyoKuvaHome' src="/newImaiges/kyllpySauna1.png" alt="Main" />
             </div>
 
             <h1 className='WelcomeText'>
