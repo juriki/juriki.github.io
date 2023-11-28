@@ -22,7 +22,7 @@ function Kuvat() {
             <h1 style={{paddingTop:"100px"}}>
   
             </h1>
-           <Galleri kuvat={kylppari} tyoNimi={'Kylppyhuone'}/> 
+           <Galleri kuvat={kylppari} tyoNimi={'Kylpyhuone'}/> 
            <Galleri kuvat={toiletSuhkku} tyoNimi={'Suihku'}/> 
            <Galleri kuvat={keittio}  tyoNimi={'Keitiö'}/> 
            <Galleri kuvat={bedRoom}  tyoNimi={'Makuhuone'}/> 
