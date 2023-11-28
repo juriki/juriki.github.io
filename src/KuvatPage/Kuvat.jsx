@@ -23,14 +23,14 @@ function Kuvat() {
   
             </h1>
            <Galleri kuvat={kylppari} tyoNimi={'Kylpyhuone'}/> 
-           <Galleri kuvat={toiletSuhkku} tyoNimi={'Suihku'}/> 
-           <Galleri kuvat={keittio}  tyoNimi={'Keitiö'}/> 
+           <Galleri kuvat={toiletSuhkku}/> 
+           <Galleri kuvat={keittio}  tyoNimi={'Keittiö'}/> 
            <Galleri kuvat={bedRoom}  tyoNimi={'Makuhuone'}/> 
-           <Galleri kuvat={stairs}  tyoNimi={'Portatiden saneraus'}/> 
+           <Galleri kuvat={stairs}  tyoNimi={'Portatiden saneeraus'}/> 
            <Galleri kuvat={huoseOut}  tyoNimi={'Julkisivut'}/> 
            <Galleri kuvat={katto}  tyoNimi={'Kattoremontti'}/> 
            <Galleri kuvat={terassi}  tyoNimi={'Terassi'} /> 
-           <Galleri kuvat={smalHouse}  tyoNimi={'Pien Rakennus'} /> 
+           <Galleri kuvat={smalHouse}  tyoNimi={'Pienrakennus'} /> 
         </>
 
     );
