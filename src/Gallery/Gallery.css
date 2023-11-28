@@ -60,7 +60,7 @@
 
 .galleryMainDiv{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin-bottom: 10px;
     width: 90%;
     height: 100%;
