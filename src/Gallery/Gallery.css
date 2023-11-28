@@ -1,9 +1,13 @@
 .gallery{
-        height: 100%;
-        width:100%;
-        margin: auto;
-        padding: 3%;
-    }
+    height: 100%;
+    display: block;
+    margin: auto;
+    max-height: 350px;
+    max-width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+    
 
 .gallery:hover{
 
@@ -13,7 +17,7 @@
 .galleryDiv1{
     margin: 10px;
     float: left;
-    max-height: 70%;
+    max-height: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -25,7 +29,7 @@
     width: 100%;
     height: 100%;
     margin: auto;
-    max-width: 75%;
+    max-width: 95%;
     background-color: #fff;
 }
 
