@@ -18,15 +18,13 @@ function Galleri(props) {
                         <div className='galleryDiv1'>
                            <a href={kuva}>
                            <img className='gallery' src={kuva} alt="Cinque Terre" onClick={(e) => Form(e.currentTarget, kuva)} name={kuva} />
-                        
                             </a>
-                  
                         </div>
                         
                     )
                 })}
-                
             </div>
+            <hr style={{borderWidth: '3px'}}/>
         </>
     );
 }
