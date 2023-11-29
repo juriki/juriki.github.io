@@ -5,9 +5,10 @@ import React from 'react';
 import Aboute from '../AboutPage/Aboute';
 import Contacts from '../ContactsPage/Contacts';
 import HomePage from '../HomePage/HomePage';
+import Kuvat from '../KuvatPage/Kuvat';
 
 
-function Navibar() {
+function Navibar(props) {
     return (
         <>
             <Navbar className='naviBar' collapseOnSelect expand="md" variant="yllow" >
@@ -18,6 +19,10 @@ function Navibar() {
                             <Nav.Link href='/'>Koti</Nav.Link>
                             <Nav.Link href='/about'>Hinnasto</Nav.Link>
                             <Nav.Link href='/contacts'>Yhteystiedot</Nav.Link>
+                            <Nav.Link href='/kuvat'>Kuvat</Nav.Link>
+
+                           
+
                         </Nav>
                     </Navbar.Collapse>
                     <Navbar.Text style={{color:"white", paddingRight: "10%", fontWeight: "200"}}>
@@ -25,9 +30,15 @@ function Navibar() {
                         VL-Rakennus ja valvonta
                             </h2>
                     </Navbar.Text>
+                    <div style={{float: 'right',  marginBottom: '-7px'}}>
                     <Navbar.Brand href="/">
                         <img className='Logo' src='VladLogo.png' alt="Vl-Logo" />
                     </Navbar.Brand>
+                    <p style={{float: 'right', color: 'white'}} className='pName'>
+                    VL-Valvonta <br/>ja Rakennus
+                        </p>
+                    </div>
+  
                 </Container>
 
                 
@@ -39,6 +50,7 @@ function Navibar() {
                     <Route exact path='/' element={<HomePage />} />
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
+                    <Route exact path='/kuvat' element={<Kuvat/>} />                    
                 </Routes>
         </Router>
         </>

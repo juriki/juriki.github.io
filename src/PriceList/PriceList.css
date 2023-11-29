@@ -22,10 +22,13 @@
     width: 70%;
 }
 
+
+
 @media screen and (max-width: 1050px) {
 
     .priceTabelMainDiv{
         width: 98%;
+        float: left;
         height: 400px;
     }
     
@@ -38,13 +41,13 @@
     
     
     .labelText{
-        font-size: large;
-        font-weight: 600;
+        font-size: x-large;
+        font-weight: 700;
         text-align: center;
     }
     
     .thTyo{
         width: 70%;
     }
-
-}
+    
+    }

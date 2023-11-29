@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .BigDiv
 {
     height: 20;
@@ -11,6 +15,10 @@
 
 }
 
+.logo{
+    margin-left: 10px;
+    height: auto;
+}
 
 
 .ImageLogo1 {
@@ -35,13 +43,10 @@
     float: left;
 }
 
-.galleryDiv{
-    width: 100%;
-    height: 1016px;
-    padding-inline: 5%;
-    background-color: #fff;
+.logo{
+    margin-top: 20px;
+    max-height: 500px;
 }
-
 
 .tyoKuvaHome
 {
@@ -100,6 +105,9 @@ justify-content: center;
     background-color: #fff;
 }
 @media screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
     .BigDiv{
         padding-top: 25%;
     }
@@ -162,5 +170,23 @@ justify-content: center;
                     padding-inline: 5%;
                     background-color: #fff;
                 }
-                
+                .logo{
+                    margin-top: 0px;
+                    max-height: 0px;
+                }
+}
+
+@media screen and (max-width: 1247px) {
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        margin-top: 50px;
+        max-width: 45%;
+    }
+    .formDivContactPage{
+        background-color: #fff;
+        width: 100%;
+    }
+    
 }

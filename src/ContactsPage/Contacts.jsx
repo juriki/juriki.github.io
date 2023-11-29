@@ -8,13 +8,12 @@ function Contacts() {
     return (
         <div className='PageTop'>
             <div>
-                <div >
-                    <Form />
+                <div className='formDivContactPage'>
+                    <Form  />
                 </div>
                 <div>
-                    <img className='logo' src='VladLogo.png' alt="Logo" />
+                    <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta"/>
                 </div>
-
             </div>
             <div>
                 <Palvelut />

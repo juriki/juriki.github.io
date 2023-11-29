@@ -8,10 +8,10 @@ function Palvelut() {
 
     return (
         <>
-        <div className='palvelutDiv'>
-        <h1 className='nyt'>
-                            Tarjoamat palvelut ovat:
-                        </h1>
+            <div className='palvelutDiv'>
+                <h1 className='nyt'>
+                    Tarjoamat palvelut ovat:
+                </h1>
                 <table >
                     <tr>
 
@@ -29,7 +29,7 @@ function Palvelut() {
                         )
                     })}
                 </table>
-        </div>
+            </div>
 
         </>
     );

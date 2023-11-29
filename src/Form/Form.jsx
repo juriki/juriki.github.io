@@ -1,80 +1,133 @@
 import './Form.css'
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com'
 
 function Form() {
 
+    
+    // NAME LASTNAME input
     const [nameLastname, setNameLastname] = useState('')
+    const [nameLastnameErrorMessage, setNameLastnameErromMessage] = useState('#fff')
+    // PHONE input    
     const [phone, setPhone] = useState('')
+    const [phoneErrorMessage, setPhoneErrorMessage] = useState('#fff')
+    // EMAIL input
     const [email, setEmail] = useState('')
+    const [emailErrorMessage, setEmailErrorMessage] = useState('#fff')
+    // CITY input
     const [city, setCity] = useState('')
+    //MESSAGE input
     const [message, setMessage] = useState('')
+    const [messageErrorMessage, setMessageError] = useState('#fff')
 
-    function lahettin() {
-        if (email.length === '' || nameLastname === '' || message === '') {
-            alert("Joku kentä on tyhja TEST DEBUG  TODO Delete ")
-            console.log("Error")
+    const [senderError, setSenderError] = useState(true)
+    const [buttenEanbled, setButtonEnabled] = useState('')
+
+    function lahettin(e) {
+        e.preventDefault();
+        if (nameLastname === '' || nameLastname.length < 4) {
+            setNameLastnameErromMessage('#ff000030')
+            setSenderError(true)
         } else {
-            alert("Hei " + nameLastname + " Sinun puhelin " + phone + email + " meilä otamme yhtytä sinun!")
+            setNameLastnameErromMessage('#fff')
+            setSenderError(false)
+        }
+        if (phone === '' || phone.length < 7) {
+            setPhoneErrorMessage('#ff000030')
+            setSenderError(true)
+        } else {
+            setPhoneErrorMessage('#fff')
+            setSenderError(false)
+        }
+        if (email === '' || phone.length < 7) {
+            setEmailErrorMessage('#ff000030')
+            setSenderError(true)
+        } else {
+            setEmailErrorMessage('#fff')
+            setSenderError(false)
         }
 
+        if (message === '') {
+            setMessageError('#ff000030')
+            setSenderError(true)
+        } else {
+            setMessageError('#fff')
+            setSenderError(false)
+        }
+        if (!senderError){
+         
+            console.log("hurra")
+
+            e.preventDefault();
+
+            emailjs.sendForm('service_pk8kpzf', 'template_l9tzmds', e.target, '1wQyMHQyPQx6upzdR')
+              .then((result) => {
+                  console.log(result.text);
+                  alert('Viesti Lähetetty')
+                  setEmail('')
+                  setPhone('')
+                  setMessage('')
+                  setNameLastname('')
+                  setCity('')
+                  setButtonEnabled('disabled')
+
+              }, (error) => {
+                  console.log(error.text);
+              });
+              e.target.reset()
+        }
     }
+
+    const errorHandler = (e) => {
+
+    }
+
+
 
 
     return (
 
 
         <>
+            <form  onSubmit={lahettin}>
             <div className='formMAindiv'>
-                <div className='mainText'>
                 <p className='Yhteys'>
                     Pyydä Tarjous:
                 </p>
-                </div>
-
                 <div className='upForm'>
-                    <h5 >
-                        Jos tarvitset tarjouksen, ota rohkeasti yhteyttä
-                    </h5>
-
+                    <h5 className='myH5' >Jos tarvitset tarjouksen, ota rohkeasti yhteyttä</h5>
                     <label className='labelHalf' >
                         <p className='LabelP'>Nimi*</p>
-                        <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} />
+                        <input className='inputNamePhone' type="text" placeholder='Etunimi Sukunimi' value={nameLastname} onChange={(e) => setNameLastname(e.target.value)} style={{ backgroundColor: nameLastnameErrorMessage }} name='from_name' />
                     </label>
-                    <label  className='labelHalf'>
+                    <label className='labelHalf'>
                         <p className='LabelP'>Puhelinnumero*</p>
-                        <input className='inputNamePhone' type="text" placeholder='050 1234 567' value={phone} onChange={(e) => setPhone(e.target.value)} />
+                        <input className='inputNamePhone' type="text" placeholder='0453400453' style={{ backgroundColor: phoneErrorMessage }} value={phone} onChange={(e) => setPhone(e.target.value)} maxLength={"10"} name='my_phone' />
                     </label>
                     <br />
-                    <label className='labelFull'>
-                        <p className='LabelP'>Sähköpostiosoite*</p>
-                        <input className='Inputik' type="text" placeholder='sähköposti@osoitte.fi' value={email} onChange={(e) => setEmail(e.target.value)} />
-                    </label>
+                    <p className='LabelP'>Sähköpostiosoite*</p>
+                    <input className='Inputik' type="text" placeholder='vl.rakennus@gmail.com' style={{ backgroundColor: emailErrorMessage }} value={email} onChange={(e) => setEmail(e.target.value)} maxLength={"40"} name='email_from' />
                     <br />
-                    <label className='labelFull'>
-                        <p className='LabelP'>Paikakunta</p>
-                        <input className='Inputik'  type="text" value={city} onChange={(e) => setCity(e.target.value)} />
-                    </label>
+                    <p className='LabelP'>Paikakunta</p>
+                    <input className='Inputik' type="text" value={city} onChange={(e) => setCity(e.target.value)} placeholder='Uusimaa' maxLength={"15"} />
                     <br />
-                    <label className='labelFull'>
-                        <p className='LabelP'>Viesti*</p>
-                        <textarea className='Inputik' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-                    </label>
+                    <div>
+                        <p className='LabelP'> Viesti*  <p style={{ float: 'right' }} className='LabelP'> {message.length}/1000 </p>  </p>
+
+                    </div>
+                    <textarea onBlur={e => errorHandler(e)} className='Inputik' style={{ backgroundColor: messageErrorMessage }} value={message} onChange={(e) => setMessage(e.target.value)} maxLength={"1000"} name='message'></textarea>
                     <br />
-                    <button className='NappiSoitta1' onClick={lahettin}>Lähetä</button>
-                    <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'>
-                        <img className='someLogos' src='facebook.png' alt="facebook" />
-                    </a>
-                    <a href='https://www.instagram.com/ladlahna/?hl=en' target='_balnk'>
-                        <img className='someLogos' src='instagramLogo.png' alt="instagram" />
-                    </a>
-                    <a href='tel:+35840000000'>
-                        <img className='someLogos' src='phoneLogo.png' alt="call" />
-                    </a>
+                    <input disabled={buttenEanbled} className='NappiSoitta1' type="submit" value="Lähetä" />
+              
+                    <a href='https://www.facebook.com/ladislav.lahna/' target='_balnk'><img className='someLogos' src='facebook.png' alt="facebook" /></a>
+                    <a href='tel:+358453400453'><img className='someLogos' src='phoneLogo.png' alt="call" /></a>
+
+
                 </div>
                 <br />
 
             </div>
-
+            </form>
 
 
         </>

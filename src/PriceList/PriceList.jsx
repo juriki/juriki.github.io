@@ -10,7 +10,7 @@ function PriceList(props) {
                 <table >
                     <tr>
                         <th className='thTyo'>Työ</th>
-                        <th>Hina</th>
+                        <th>Hinta</th>
                     </tr>
                     {props.tyot.map((tyo, index) => {
                         return (
