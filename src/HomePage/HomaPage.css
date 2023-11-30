@@ -15,6 +15,13 @@ body{
 
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+}
 .logo{
     margin-left: 10px;
     height: auto;
@@ -170,6 +177,13 @@ justify-content: center;
                     padding-inline: 5%;
                     background-color: #fff;
                 }
+                .container {
+                    width: 100%;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    /* margin-right: auto; */
+                    /* margin-left: auto; */
+                }
 
 }
 
@@ -192,11 +206,11 @@ justify-content: center;
 
     .formMAindiv {
         background-color: #fff;
-        width: 100%;
+        width: 80%;
         height: 50%;
         margin-top: auto;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 15%;
+        margin-left: 15%;
         text-align: center;
     }
     .Yhteys {
@@ -216,5 +230,14 @@ justify-content: center;
         background-color: #dddddd;
         padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
     }
 }
