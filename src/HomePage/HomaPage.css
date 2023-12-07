@@ -206,27 +206,23 @@ justify-content: center;
 
     .formMAindiv {
         background-color: #fff;
-        width: 80%;
+        width: 90%;
         height: 50%;
         margin-top: auto;
-        margin-right: 15%;
-        margin-left: 15%;
         text-align: center;
     }
+
     .Yhteys {
         margin-top: 20px;
-        font-size: xx-large;
-        margin-right: 22%;
+        font-size: 30px;
         font-weight: 800;
+        text-align: center;
     }
 
-
     .upForm {
-        padding: 1%;
         height: auto;
-        width: 75%;
+        width: 95%;
         max-width: 850px;
-        margin-left: 17px;
         background-color: #dddddd;
         padding-bottom: 50px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

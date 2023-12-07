@@ -140,9 +140,9 @@
         float: right;
         padding-left: 10px;
         padding-right: 15px;
-        font-size: 20px;
-        margin-right: 10px;
-        margin-bottom: 20px;
+        font-size: 16px;
+        margin-right: 1px;
+        margin-bottom: 10px;
     }
     
     .NappiSoitta1:hover {
@@ -152,7 +152,7 @@
     }
     .someLogos{
         float: right;
-        height: 37px;
+        height: 32px;
         margin-right: 10px; 
         margin-top: -2px;
     }
