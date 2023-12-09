@@ -1,6 +1,3 @@
-body{
-    overflow-x: hidden;
-}
 
 .BigDiv
 {
@@ -112,9 +109,7 @@ justify-content: center;
     background-color: #fff;
 }
 @media screen and (max-width: 767px) {
-    body{
-        overflow-x: hidden;
-    }
+
     .BigDiv{
         padding-top: 25%;
     }
@@ -188,9 +183,6 @@ justify-content: center;
 }
 
 @media screen and (max-width: 1247px) {
-    body{
-        overflow-x:auto;
-    }
     .logo{
         margin-top: 50px;
         max-width: 45%;

@@ -5,16 +5,3 @@
     max-width: auto;
     margin: 0;
     }
-
-*body
-  {
-    overflow-x: hidden;
-  }
-  
-
-  @media screen and (max-width: 767px) {
-    *body{
-      width: 100%;
-      overflow: hidden;
-    }
-  }
