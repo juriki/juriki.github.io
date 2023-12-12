@@ -29,7 +29,8 @@
         .pNavBar{
             font-size:  13px;
             font-weight: 200;
-            float: left;
+            float: right;
+            margin-right: 10px;
      
         }
 }
