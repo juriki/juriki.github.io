@@ -38,7 +38,10 @@ function HomePage() {
                 <div>
                     <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta"/>
                 </div>
+                <a href='Sertifikat.png'>
                 <img  src='Sertifikat.png' alt='VladLahan Sertifikat'  style={{paddingInline: '3%', width: '100%'}}/>
+                </a>
+            
             </div>
   
 
