@@ -1,0 +1,12 @@
+.imageDivKuvat{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    max-height: 100%;
+}
+
+
+.kuva{
+    max-height: 800px;
+    max-width: 95%;
+}
