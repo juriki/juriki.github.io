@@ -9,7 +9,7 @@ function Kuvat() {
 
     const [isKuvaShow, setIsKuvaShow] = useState(false)
     const [kuvaData, setKuvaData] = useState('0')
-    const kylppari = ["/newImaiges/kyllpySauna1.png", "/newImaiges/kyllpySauna2.png", "/newImaiges/kyllpySauna3.png", "/newImaiges/kyllpySauna4.png",]
+    const kylppari = ["/newImaiges/kyllpySauna1.png", "/newImaiges/kyllpySauna2.png", "/newImaiges/kyllpySauna3.png", "/newImaiges/kyllpySauna4.png",  "/newImaiges/kyllpySauna5.png", "/newImaiges/kyllpySauna6.png"]
     const toiletSuhkku = ["/newImaiges/toiletSuhku1.png", "/newImaiges/toiletSuhku2.png", "/newImaiges/toiletSuhku3.png", "/newImaiges/toiletSuhku4.png",]
     const keittio = ["/newImaiges/ketio1.png", "/newImaiges/ketio2.png", "/newImaiges/ketio3.png", "/newImaiges/ketio4.png", "/newImaiges/ketio5.png",]
     const bedRoom = ["/newImaiges/bed2Room1.png", "/newImaiges/bed2Room2.png", "/newImaiges/bedRoom1.png", "/newImaiges/bedRoom2.png",]
