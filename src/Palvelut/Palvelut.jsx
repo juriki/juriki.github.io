@@ -4,7 +4,7 @@ import './Palvelut.css'
 function Palvelut() {
     const sisatilat = ["Sisämaalaus", "Tapetointi", "Väliseinän Rakentaminen", "Vinyylikatto", "Kangaskatto", "Panelointi", "Kalusteiden Asennus", "Keittiöremontti", "Kylpyhuoneremontti", "Pienet putkityöt", "Laatoitus", "Sauna", "Laattasaumojen vaihto", "Epoxy pinnoitus"]
 
-    const ulkotilat = ["Vinyyliverhous", "Terassien Rakentaminen", "Ulkomaalaus", "Pienrakennusten Rakentaminen"]
+    const ulkotilat = ["Vinyyliverhous", "Terassien Rakentaminen", "Ulkomaalaus", "Pienrakennusten Rakentaminen", "Julkisivu työ"]
 
     return (
         <>
