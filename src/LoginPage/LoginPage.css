@@ -1,0 +1,29 @@
+.NappiSoitta {
+    width: 60%;
+    font-size: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.NappiSoitta:hover {
+    color: #fff;
+    background: rgb(54, 214, 36);
+
+}
+
+.inputLogin{
+    border: #0000004a;
+    width: 60%;
+    border-bottom: 1px solid rgb(2, 12, 1);
+}
+
+
+.LittleDiv{
+    text-align: center;
+    padding-top: 6%;
+    width: 40%;
+    background-color: #dddddd;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

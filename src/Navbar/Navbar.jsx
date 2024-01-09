@@ -7,6 +7,8 @@ import Contacts from '../ContactsPage/Contacts';
 import HomePage from '../HomePage/HomePage';
 import Kuvat from '../KuvatPage/Kuvat';
 import KuvaOpen from '../KuvaOpen/KuvaOpen';
+import LoginPage from '../LoginPage/LoginPage';
+import AdminPage from '../AdminPage/AdminPage';
 
 
 function Navibar(props) {
@@ -47,7 +49,9 @@ function Navibar(props) {
                     <Route exact path='/about' element={<Aboute/>} />
                     <Route exact path='/Contacts' element={<Contacts/>} />
                     <Route exact path='/kuvat' element={<Kuvat/>} />     
-                    <Route exact path='/kuvaopen' element={<KuvaOpen rwcivedata='ok'/>} />                  
+                    <Route exact path='/kuvaopen' element={<KuvaOpen rwcivedata='ok'/>} />  
+                    <Route exact path='/loginpage' element={<LoginPage/>} />
+                    <Route exact path='/admin' element={<AdminPage/>} />
                 </Routes>
         </Router>
         </>
