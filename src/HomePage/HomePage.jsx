@@ -12,7 +12,7 @@ function HomePage() {
 
     return (
         <>
-           
+             <meta name='robots' content='index , follow' />
             <div className='ImageDiv' >
                 <img
                     className='tyoKuvaHome' src="/newImaiges/kyllpySauna1.png" alt="Main" />

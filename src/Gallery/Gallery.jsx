@@ -10,6 +10,7 @@ function Galleri(props) {
 */
     return (
         <>
+          <meta name='robots' content='index , follow' />
             <h3 style={{textAlign: 'center'}}>{props.tyoNimi}</h3>
               <div className='galleryMainDiv'>
    
