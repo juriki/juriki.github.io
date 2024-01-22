@@ -9,6 +9,7 @@
     color: azure;
     float: left;
     background-color: rgb(70, 70, 79);
+    
 }
 
 .pNavBar{
@@ -24,13 +25,14 @@
     .Footer {
             margin-top: 0px;
             width: 100%;
+            font-size: small;
             height: auto;
             background-color: rgb(70, 70, 79);
             margin-bottom: -1px;
         }
 
         .pNavBar{
-            font-size:  13px;
+            font-size:  11px;
             font-weight: 200;
             float: left;
             margin-right: 10px;
