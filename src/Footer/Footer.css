@@ -13,10 +13,13 @@
 
 .pNavBar{
     font-size:  14px;
-    float: right;
+    float: left;
     font-weight: 200;
 }
 
+.autocolums{
+    column-count: 2;
+}
 @media screen and (max-width: 767px) {
     .Footer {
             margin-top: 0px;
