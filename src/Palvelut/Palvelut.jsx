@@ -8,6 +8,7 @@ function Palvelut() {
 
     return (
         <>
+        
             <div className='palvelutDiv'>
                 <h1 className='nyt'>
                     Tarjoamat palvelut ovat:
