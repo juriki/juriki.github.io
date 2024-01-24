@@ -9,18 +9,23 @@ function Kuvat() {
 
     const [isKuvaShow, setIsKuvaShow] = useState(false)
     const [kuvaData, setKuvaData] = useState('0')
-    const kylppari = ["/newImaiges/kyllpySauna1.png", "/newImaiges/kyllpySauna2.png", "/newImaiges/kyllpySauna3.png", "/newImaiges/kyllpySauna4.png",  "/newImaiges/kyllpySauna5.png", "/newImaiges/kyllpySauna6.png"]
-    const toiletSuhkku = ["/newImaiges/toiletSuhku1.png", "/newImaiges/toiletSuhku2.png", "/newImaiges/toiletSuhku3.png", "/newImaiges/toiletSuhku4.png",]
-    const keittio = ["/newImaiges/ketio1.png", "/newImaiges/ketio2.png", "/newImaiges/ketio3.png", "/newImaiges/ketio4.png", "/newImaiges/ketio5.png",]
-    const bedRoom = ["/newImaiges/bed2Room1.png", "/newImaiges/bed2Room2.png", "/newImaiges/bedRoom1.png", "/newImaiges/bedRoom2.png",]
-    const stairs = ["/newImaiges/stairs1.png", "/newImaiges/stairs2.png",]
-    const huoseOut = ["/newImaiges/HousOutDoor1.png", "/newImaiges/HousOutDoor2.jpg", "/newImaiges/HousOutDoor3.png",]
-    const terassi = ["/newImaiges/terassa1.png", "/newImaiges/terassa2.png",]
-    const katto = ["/newImaiges/katto1.png", "/newImaiges/katto2.png",]
-    const smalHouse = ["/newImaiges/smallHouse1.png", "/newImaiges/smallHouse2.png"]
+    // Image size iz 400 x N
+    const kylppari = ["/newImaigesTN/kyllpySauna1.png", "/newImaigesTN/kyllpySauna2.png", "/newImaigesTN/kyllpySauna3.png", "/newImaigesTN/kyllpySauna4.png",  "/newImaigesTN/kyllpySauna5.png", "/newImaigesTN/kyllpySauna6.png"]
+    const toiletSuhkku = ["/newImaigesTN/toiletSuhku1.png", "/newImaigesTN/toiletSuhku2.png", "/newImaigesTN/toiletSuhku3.png", "/newImaigesTN/toiletSuhku4.png",]
+    const keittio = ["/newImaigesTN/ketio1.png", "/newImaigesTN/ketio2.png", "/newImaigesTN/ketio3.png", "/newImaigesTN/ketio4.png", "/newImaigesTN/ketio5.png",]
+    const bedRoom = ["/newImaigesTN/bed2Room1.png", "/newImaigesTN/bed2Room2.png", "/newImaigesTN/bedRoom1.png", "/newImaigesTN/bedRoom2.png",]
+    const stairs = ["/newImaigesTN/stairs1.png", "/newImaigesTN/stairs2.png",]
+    const huoseOut = ["/newImaigesTN/HousOutDoor1.png", "/newImaigesTN/HousOutDoor2.png", "/newImaigesTN/HousOutDoor3.png",]
+    const terassi = ["/newImaigesTN/terassa1.png", "/newImaigesTN/terassa2.png",]
+    const katto = ["/newImaigesTN/katto1.png", "/newImaigesTN/katto2.png",]
+    const smalHouse = ["/newImaigesTN/smallHouse1.png", "/newImaigesTN/smallHouse2.png"]
 
     const handlerPhotoClick = (imagename) => {
-        setKuvaData(imagename)
+        let newURl = imagename.slice(14, imagename.lenght)
+        console.log(newURl)
+        newURl = "/newImaiges/"+newURl
+//      IMGAGE NAME TO NEWURL
+        setKuvaData(newURl)
         setIsKuvaShow(true)
     };
 
