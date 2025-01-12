@@ -6,19 +6,25 @@ import React from 'react';
 function Contacts() {
 
     return (
-        <div className='PageTop'>
-            <div>
-                <div className='formDivContactPage'>
-                    <Form  />
+        <>
+            <meta name='robots' content='index , follow' />
+            <div className='PageTop'>
+                <div>
+                    <div className='formDivContactPage'>
+                        <Form />
+                    </div>
+                    <div>
+                        <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta" />
+                    </div>
                 </div>
                 <div>
-                    <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta"/>
+                    <Palvelut />
                 </div>
             </div>
-            <div>
-                <Palvelut />
-            </div>
-        </div>
+
+
+
+        </>
 
 
     );

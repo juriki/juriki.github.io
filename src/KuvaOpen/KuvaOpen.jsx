@@ -8,7 +8,7 @@ function KuvaOpen(props) {
 
     return (
         <>
-            <img src={props.munKuva} alt='ok'></img>
+            <img src={props.munKuva} alt='vl-valrak.fi'></img>
         </>
     );
 }

@@ -33,6 +33,7 @@ function Aboute() {
     const mikrosementtiTekst = "(Työ + Materiaalit)(Pinta-ala lattiasta katsottuna)(Laattojen päälle) "
     return (
         <>
+            <meta name='robots' content='index , follow' />
             <div style={{ paddingTop: "200px" }}>
                 <PriceList palveluNimi="Lattia" otherText={lattiaText} tyot={lattia} hinta={lattiaHinta} />
                 <PriceList palveluNimi="Märkätilatöiden valvonta" otherText={markatilavalvontaText} tyot={markatilavalvonta} hinta={markatilavalvontaHinta} />

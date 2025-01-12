@@ -2,14 +2,9 @@ import React from 'react'
 import './Gallery.css'
 
 function Galleri(props) {
-
- /*   function Form(e, kuva1) {
-          console.log('You clicked submit.'+ e.name);
-          console.log('You clicked submit.' + kuva1);
-    }
-*/
     return (
         <>
+          <meta name='robots' content='index , follow' />
             <h3 style={{textAlign: 'center'}}>{props.tyoNimi}</h3>
               <div className='galleryMainDiv'>
    

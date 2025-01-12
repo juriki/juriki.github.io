@@ -12,9 +12,10 @@ function HomePage() {
 
     return (
         <>
+             <meta name='robots' content='index , follow' />
             <div className='ImageDiv' >
                 <img
-                    className='tyoKuvaHome' src="/newImaiges/kyllpySauna1.png" alt="Main" />
+                    className='tyoKuvaHome' src="/newImaiges/kyllpySauna1.png" alt="VL-Valvonta ja Rakennus" />
             </div>
 
             <h1 className='WelcomeText'>
@@ -36,10 +37,10 @@ function HomePage() {
                     <Form  />
                 </div>
                 <div>
-                    <img className='logo' src='VladLogo.png' alt="vl-rakennus-ja-valvonta"/>
+                    <img className='logo' src='VladLogo.png' alt="VL-Valvonta ja Rakennus"/>
                 </div>
                 <a href='Sertifikat.png'>
-                <img  src='Sertifikat.png' alt='VladLahan Sertifikat'  style={{paddingInline: '3%', width: '100%'}}/>
+                <img  src='Sertifikat.png' alt='Otto Sonder Sertifikat'  style={{paddingInline: '3%', width: '100%'}}/>
                 </a>
             
             </div>
