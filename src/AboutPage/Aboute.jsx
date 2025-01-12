@@ -1,4 +1,4 @@
-//import UncontrolledExample from '../Components/Carouselqq';
+//import UncontrolledExample from '../Components/Carouselq';
 import PriceList from '../PriceList/PriceList';
 import './Aboute.css'
 import React from 'react';
