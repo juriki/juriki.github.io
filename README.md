@@ -71,3 +71,71 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# vladhttp
+
+vladhttp is a web project aimed at [brief description of the project's purpose]. The project provides [key features, functionality, or a specific goal it serves]. The website is hosted at [https://vl-valrak.fi](https://vl-valrak.fi).
+
+## Project Structure
+
+This project consists of several components, with the core focus on [describe main components, e.g., web interface, API, etc.]. The site design was provided by the client, VL-Valvonta ja Rakennus.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/juriki/vladhttp.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd vladhttp
+    ```
+
+3. Install necessary dependencies (if applicable):
+    ```bash
+    # Example for Python:
+    pip install -r requirements.txt
+    ```
+
+4. Run the project:
+    ```bash
+    # Example for Python:
+    python app.py
+    ```
+
+## Usage
+
+1. Describe how to use the application or the main features of the website.
+2. What actions can users perform?
+3. Include any specific instructions or setup for the design if necessary.
+
+## Design
+
+The design for the website was created by the client, **VL-Valvonta ja Rakennus**. Please note that the design and user interface were based on the client's requirements, and all visual elements are their property.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-name
+    ```
+
+3. Make your changes and push them:
+    ```bash
+    git commit -am "Description of changes"
+    git push origin feature-name
+    ```
+
+4. Create a Pull Request in the repository.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to me at **juritokvin@gmail.com** or through the Issues section on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
